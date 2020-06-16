@@ -10,18 +10,18 @@ class InfoMonitor extends StatelessWidget {
   final String info;
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return IgnorePointer(child: Container(
       color: Colors.white.withOpacity(0.75),
       margin: EdgeInsets.all(5),
       padding: EdgeInsets.only(top: 15) + EdgeInsets.all(5),
       constraints: BoxConstraints(
         minWidth: double.infinity,
-        // minHeight: 100,
+         // minHeight: 100,
       ),
       child: Text(
         info,
         style: TextStyle(fontSize: 18, color: Colors.black),
       ),
-    );
+    ));
   }
 }
