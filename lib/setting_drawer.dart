@@ -86,7 +86,7 @@ class SettingDrawer extends StatelessWidget {
                   config.scrollMode == ScrollMode.complex
                       ? ScrollMode.tile
                       : ScrollMode.complex);
-              // Navigator.pop(context);
+               // Navigator.pop(context);
             },
             trailing: Text(
                 config.scrollMode == ScrollMode.complex ? 'Tile' : 'Complex'),
