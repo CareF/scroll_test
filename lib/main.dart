@@ -4,7 +4,7 @@
 
 import 'package:flutter/material.dart';
 
-import 'global_setting.dart';
+import 'model_binding.dart';
 import 'setting_drawer.dart';
 import 'bottom_bar.dart';
 import 'top_bar_menu.dart';
@@ -12,15 +12,19 @@ import 'fancy_item.dart';
 import 'icon_bar.dart';
 
 void main() {
-  runApp(GlobalSetting(child: ComplexLayoutApp()));
+  runApp(ModelBinding<SettingConfig>(
+    initialModel: SettingConfig(),
+    child: ComplexLayoutApp(),
+  ));
 }
 
 class ComplexLayoutApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    bool lightTheme = SettingConfig.of(context).lightTheme;
-    ScrollMode scrollMode = SettingConfig.of(context).scrollMode;
-    bool performanceOverlay = SettingConfig.of(context).performanceOverlay;
+    SettingConfig config = ModelBinding.of<SettingConfig>(context);
+    bool lightTheme = config.lightTheme;
+    ScrollMode scrollMode = config.scrollMode;
+    bool performanceOverlay = config.performanceOverlay;
     return MaterialApp(
       showPerformanceOverlay: performanceOverlay,
       theme: lightTheme ? ThemeData.light() : ThemeData.dark(),

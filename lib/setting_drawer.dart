@@ -3,28 +3,71 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
+import 'model_binding.dart';
 import 'package:flutter/scheduler.dart' show timeDilation;
-import 'global_setting.dart';
 
-class SettingDrawer extends StatefulWidget {
-  const SettingDrawer({Key key}) : super(key: key);
+enum ScrollMode { complex, tile }
 
-  @override
-  _SettingDrawerState createState() => _SettingDrawerState();
+@immutable
+class SettingConfig {
+  const SettingConfig({
+    this.lightTheme = true,
+    this.scrollMode = ScrollMode.complex,
+    this.performanceOverlay = false,
+  });
+
+  SettingConfig copyBut({
+    bool newLightTheme,
+    ScrollMode newScrollMode,
+    bool newPerformanceOverlay,
+  }) =>
+      SettingConfig(
+        lightTheme: newLightTheme ?? lightTheme,
+        scrollMode: newScrollMode ?? scrollMode,
+        performanceOverlay: newPerformanceOverlay ?? performanceOverlay,
+      );
+
+  final ScrollMode scrollMode;
+  final bool lightTheme;
+  final bool performanceOverlay;
 }
 
-class _SettingDrawerState extends State<SettingDrawer> {
+class SettingDrawer extends StatelessWidget {
+  const SettingDrawer({Key key}) : super(key: key);
+
+  static const double slowTimeDilation = 5.0;
+  static const double normalTimeDilation = 1.0;
+
+  SettingConfig _config(BuildContext context) =>
+      ModelBinding.of<SettingConfig>(context);
+
   void _changeTheme(BuildContext context, bool value) {
-    SettingConfig.of(context).lightTheme = value;
+    ModelBinding.update<SettingConfig>(
+        context, _config(context).copyBut(newLightTheme: value));
   }
 
-  void _changeScrollMode(BuildContext context, ScrollMode mode) {
-    SettingConfig.of(context).scrollMode = mode;
+  void _changeScrollMode(BuildContext context, ScrollMode value) {
+    ModelBinding.update<SettingConfig>(
+        context, _config(context).copyBut(newScrollMode: value));
+  }
+
+  void _toggleAnimationSpeed(BuildContext context) {
+    timeDilation = timeDilation == normalTimeDilation
+        ? slowTimeDilation
+        : normalTimeDilation;
+    // Effectively rebuild the drawer
+    ModelBinding.update<SettingConfig>(context, _config(context).copyBut());
+  }
+
+  void _togglePerformanceOverlay(BuildContext context) {
+    SettingConfig currentConfig = _config(context);
+    ModelBinding.update<SettingConfig>(context,currentConfig.copyBut(
+        newPerformanceOverlay: !currentConfig.performanceOverlay));
   }
 
   @override
   Widget build(BuildContext context) {
-    final ScrollMode currentMode = SettingConfig.of(context).scrollMode;
+    SettingConfig config = _config(context);
     return Drawer(
       // Note: for real apps, see the Gallery material Drawer demo. More
       // typically, a drawer would have a fixed header with a scrolling body
@@ -38,35 +81,30 @@ class _SettingDrawerState extends State<SettingDrawer> {
             key: const Key('scroll-switcher'),
             title: const Text('Scroll Mode'),
             onTap: () {
-              // Don't need to setState since it's going to pop anyway.
               _changeScrollMode(
                   context,
-                  currentMode == ScrollMode.complex
+                  config.scrollMode == ScrollMode.complex
                       ? ScrollMode.tile
                       : ScrollMode.complex);
               Navigator.pop(context);
             },
-            trailing:
-            Text(currentMode == ScrollMode.complex ? 'Tile' : 'Complex'),
+            trailing: Text(
+                config.scrollMode == ScrollMode.complex ? 'Tile' : 'Complex'),
           ),
           ListTile(
             leading: const Icon(Icons.brightness_5),
             title: const Text('Light'),
             onTap: () {
-              if (!SettingConfig.of(context).lightTheme)
-                setState(() {
-                  _changeTheme(context, true);
-                });
+              if (!config.lightTheme)
+                _changeTheme(context, true);
             },
-            selected: SettingConfig.of(context).lightTheme,
+            selected: config.lightTheme,
             trailing: Radio<bool>(
               value: true,
-              groupValue: SettingConfig.of(context).lightTheme,
+              groupValue: config.lightTheme,
               onChanged: (bool value) {
-                if (SettingConfig.of(context).lightTheme != value)
-                  setState(() {
-                    _changeTheme(context, value);
-                  });
+                if (config.lightTheme != value)
+                  _changeTheme(context, value);
               },
             ),
           ),
@@ -74,20 +112,16 @@ class _SettingDrawerState extends State<SettingDrawer> {
             leading: const Icon(Icons.brightness_7),
             title: const Text('Dark'),
             onTap: () {
-              if (SettingConfig.of(context).lightTheme)
-                setState(() {
-                  _changeTheme(context, false);
-                });
+              if (config.lightTheme)
+                _changeTheme(context, false);
             },
-            selected: !SettingConfig.of(context).lightTheme,
+            selected: !config.lightTheme,
             trailing: Radio<bool>(
               value: false,
-              groupValue: SettingConfig.of(context).lightTheme,
+              groupValue: config.lightTheme,
               onChanged: (bool value) {
-                if (SettingConfig.of(context).lightTheme != value)
-                  setState(() {
-                    _changeTheme(context, value);
-                  });
+                if (config.lightTheme != value)
+                  _changeTheme(context, value);
               },
             ),
           ),
@@ -95,18 +129,14 @@ class _SettingDrawerState extends State<SettingDrawer> {
           ListTile(
             leading: const Icon(Icons.hourglass_empty),
             title: const Text('Animate Slowly'),
-            selected: SettingConfig.of(context).slowMode,
+            selected: timeDilation == slowTimeDilation,
             onTap: () {
-              setState(() {
-                SettingConfig.of(context).toggleAnimationSpeed();
-              });
+              _toggleAnimationSpeed(context);
             },
             trailing: Checkbox(
-              value: SettingConfig.of(context).slowMode,
+              value: timeDilation == slowTimeDilation,
               onChanged: (bool value) {
-                setState(() {
-                  SettingConfig.of(context).toggleAnimationSpeed();
-                });
+                _toggleAnimationSpeed(context);
               },
             ),
           ),
@@ -114,18 +144,14 @@ class _SettingDrawerState extends State<SettingDrawer> {
           ListTile(
             leading: const Icon(Icons.assessment),
             title: const Text('Performance Overlay'),
-            selected: SettingConfig.of(context).performanceOverlay,
+            selected: config.performanceOverlay,
             onTap: () {
-              setState(() {
-                SettingConfig.of(context).togglePerformanceOverlay();
-              });
+              _togglePerformanceOverlay(context);
             },
             trailing: Checkbox(
-              value: SettingConfig.of(context).performanceOverlay,
+              value: config.performanceOverlay,
               onChanged: (bool value) {
-                setState(() {
-                  SettingConfig.of(context).performanceOverlay = value;
-                });
+                _togglePerformanceOverlay(context);
               },
             ),
           ),
