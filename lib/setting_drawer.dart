@@ -14,22 +14,26 @@ class SettingConfig {
     this.lightTheme = true,
     this.scrollMode = ScrollMode.complex,
     this.performanceOverlay = false,
+    this.showInfo = false,
   });
 
   SettingConfig copyBut({
     bool newLightTheme,
     ScrollMode newScrollMode,
     bool newPerformanceOverlay,
+    bool newShowInfo,
   }) =>
       SettingConfig(
         lightTheme: newLightTheme ?? lightTheme,
         scrollMode: newScrollMode ?? scrollMode,
         performanceOverlay: newPerformanceOverlay ?? performanceOverlay,
+        showInfo: newShowInfo ?? showInfo,
       );
 
   final ScrollMode scrollMode;
   final bool lightTheme;
   final bool performanceOverlay;
+  final bool showInfo;
 }
 
 class SettingDrawer extends StatelessWidget {
@@ -65,6 +69,12 @@ class SettingDrawer extends StatelessWidget {
         newPerformanceOverlay: !currentConfig.performanceOverlay));
   }
 
+  void _toggleInfoBar(BuildContext context) {
+    SettingConfig currentConfig = _config(context);
+    ModelBinding.update<SettingConfig>(context,currentConfig.copyBut(
+        newShowInfo: !currentConfig.showInfo));
+  }
+
   @override
   Widget build(BuildContext context) {
     SettingConfig config = _config(context);
@@ -86,7 +96,7 @@ class SettingDrawer extends StatelessWidget {
                   config.scrollMode == ScrollMode.complex
                       ? ScrollMode.tile
                       : ScrollMode.complex);
-              Navigator.pop(context);
+              // Navigator.pop(context);
             },
             trailing: Text(
                 config.scrollMode == ScrollMode.complex ? 'Tile' : 'Complex'),
@@ -152,6 +162,20 @@ class SettingDrawer extends StatelessWidget {
               value: config.performanceOverlay,
               onChanged: (bool value) {
                 _togglePerformanceOverlay(context);
+              },
+            ),
+          ),
+          ListTile(
+            leading: const Icon(Icons.equalizer),
+            title: const Text('Show Scrolling Info'),
+            selected: config.showInfo,
+            onTap: () {
+              _toggleInfoBar(context);
+            },
+            trailing: Checkbox(
+              value: config.showInfo,
+              onChanged: (bool value) {
+                _toggleInfoBar(context);
               },
             ),
           ),
