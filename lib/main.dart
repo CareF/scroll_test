@@ -12,26 +12,30 @@ import 'fancy_item.dart';
 import 'icon_bar.dart';
 
 void main() {
-  runApp(ModelBinding<SettingConfig>(
-    initialModel: SettingConfig(),
-    child: ComplexLayoutApp(),
-  ));
+  runApp(ComplexLayoutApp());
 }
 
 class ComplexLayoutApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    SettingConfig config = ModelBinding.of<SettingConfig>(context);
-    bool lightTheme = config.lightTheme;
-    ScrollMode scrollMode = config.scrollMode;
-    bool performanceOverlay = config.performanceOverlay;
-    return MaterialApp(
-      showPerformanceOverlay: performanceOverlay,
-      theme: lightTheme ? ThemeData.light() : ThemeData.dark(),
-      title: 'Advanced Layout',
-      home: scrollMode == ScrollMode.complex
-          ? const ComplexLayout()
-          : const TileScrollLayout(),
+    return ModelBinding<SettingConfig>(
+      initialModel: SettingConfig(),
+      child: Builder(
+        builder: (BuildContext context) {
+          SettingConfig config = ModelBinding.of<SettingConfig>(context);
+          bool lightTheme = config.lightTheme;
+          ScrollMode scrollMode = config.scrollMode;
+          bool performanceOverlay = config.performanceOverlay;
+          return MaterialApp(
+            showPerformanceOverlay: performanceOverlay,
+            theme: lightTheme ? ThemeData.light() : ThemeData.dark(),
+            title: 'Advanced Layout',
+            home: scrollMode == ScrollMode.complex
+                ? const ComplexLayout()
+                : const TileScrollLayout(),
+          );
+        },
+      ),
     );
   }
 }
