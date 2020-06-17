@@ -3,8 +3,9 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'top_bar_menu.dart';
+
 import 'icon_bar.dart';
+import 'top_bar_menu.dart';
 
 class FancyImageItem extends StatelessWidget {
   const FancyImageItem(this.index, {Key key}) : super(key: key);
