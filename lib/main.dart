@@ -50,12 +50,13 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
 
   void _scrolling(PointerEvent details) {
     pointerY.add(details.position.dy);
+    pointerTimestamp.add(details.timeStamp.inMicroseconds/1000.0);
   }
 
   String get scrollSummary {
-    if (pointerTimestamp.isEmpty)
-      return 'info';
-    return scrollSummary.toString();
+    if (pointerY.isEmpty)
+      return 'Waiting...';
+    return pointerY.toString();
   }
 
   ListView _complexList(BuildContext context) {
@@ -117,7 +118,14 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
             ),
             body: Column(
               children: <Widget>[
-                Expanded(child: scroller),
+                Expanded(
+                  child: Listener(
+                    child: scroller,
+                    onPointerDown: _scrollStart,
+                    onPointerMove: _scrolling,
+                    onPointerUp: _scrollEnd,
+                  ),
+                ),
                 BottomBar(),
               ],
             ),

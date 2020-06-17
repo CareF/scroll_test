@@ -5,23 +5,25 @@
 import 'package:flutter/material.dart';
 
 class InfoMonitor extends StatelessWidget {
-  InfoMonitor(this.info, {Key key}) : super(key: key);
+  const InfoMonitor(this.info, {Key key}) : super(key: key);
 
   final String info;
   @override
   Widget build(BuildContext context) {
-    return IgnorePointer(child: Container(
-      color: Colors.white.withOpacity(0.75),
-      margin: EdgeInsets.all(5),
-      padding: EdgeInsets.only(top: 15) + EdgeInsets.all(5),
-      constraints: BoxConstraints(
-        minWidth: double.infinity,
-         // minHeight: 100,
+    return IgnorePointer(
+      child: Container(
+        color: Colors.white.withOpacity(0.75),
+        margin: const EdgeInsets.all(5),
+        padding: const EdgeInsets.only(top: 15) + const EdgeInsets.all(5),
+        constraints: const BoxConstraints(
+          minWidth: double.infinity,
+          // minHeight: 100,
+        ),
+        child: Text(
+          info,
+          style: const TextStyle(color: Colors.black),
+        ),
       ),
-      child: Text(
-        info,
-        style: TextStyle(fontSize: 18, color: Colors.black),
-      ),
-    ));
+    );
   }
 }
