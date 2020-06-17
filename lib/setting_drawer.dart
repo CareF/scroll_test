@@ -3,8 +3,8 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
+
 import 'model_binding.dart';
-import 'package:flutter/scheduler.dart' show timeDilation;
 
 enum ScrollMode { complex, tile }
 
@@ -13,25 +13,31 @@ class SettingConfig {
   const SettingConfig({
     this.lightTheme = true,
     this.scrollMode = ScrollMode.complex,
+    this.timeDilation = 1.0,
     this.performanceOverlay = false,
     this.showInfo = false,
   });
 
+  bool get isSlow => timeDilation > 1.0;
+
   SettingConfig copyBut({
     bool newLightTheme,
     ScrollMode newScrollMode,
+    double newTimeDilation,
     bool newPerformanceOverlay,
     bool newShowInfo,
   }) =>
       SettingConfig(
         lightTheme: newLightTheme ?? lightTheme,
         scrollMode: newScrollMode ?? scrollMode,
+        timeDilation: newTimeDilation ?? timeDilation,
         performanceOverlay: newPerformanceOverlay ?? performanceOverlay,
         showInfo: newShowInfo ?? showInfo,
       );
 
   final ScrollMode scrollMode;
   final bool lightTheme;
+  final double timeDilation;
   final bool performanceOverlay;
   final bool showInfo;
 }
@@ -56,28 +62,33 @@ class SettingDrawer extends StatelessWidget {
   }
 
   void _toggleAnimationSpeed(BuildContext context) {
-    timeDilation = timeDilation == normalTimeDilation
-        ? slowTimeDilation
-        : normalTimeDilation;
+    final SettingConfig currentConfig = _config(context);
     // Effectively rebuild the drawer
-    ModelBinding.update<SettingConfig>(context, _config(context).copyBut());
+    final double newTimeDilation =
+        currentConfig.timeDilation == normalTimeDilation
+            ? slowTimeDilation
+            : normalTimeDilation;
+    ModelBinding.update<SettingConfig>(
+        context, currentConfig.copyBut(newTimeDilation: newTimeDilation));
   }
 
   void _togglePerformanceOverlay(BuildContext context) {
-    SettingConfig currentConfig = _config(context);
-    ModelBinding.update<SettingConfig>(context,currentConfig.copyBut(
-        newPerformanceOverlay: !currentConfig.performanceOverlay));
+    final SettingConfig currentConfig = _config(context);
+    ModelBinding.update<SettingConfig>(
+        context,
+        currentConfig.copyBut(
+            newPerformanceOverlay: !currentConfig.performanceOverlay));
   }
 
   void _toggleInfoBar(BuildContext context) {
-    SettingConfig currentConfig = _config(context);
-    ModelBinding.update<SettingConfig>(context,currentConfig.copyBut(
-        newShowInfo: !currentConfig.showInfo));
+    final SettingConfig currentConfig = _config(context);
+    ModelBinding.update<SettingConfig>(
+        context, currentConfig.copyBut(newShowInfo: !currentConfig.showInfo));
   }
 
   @override
   Widget build(BuildContext context) {
-    SettingConfig config = _config(context);
+    final SettingConfig config = _config(context);
     return Drawer(
       // Note: for real apps, see the Gallery material Drawer demo. More
       // typically, a drawer would have a fixed header with a scrolling body
@@ -139,12 +150,12 @@ class SettingDrawer extends StatelessWidget {
           ListTile(
             leading: const Icon(Icons.hourglass_empty),
             title: const Text('Animate Slowly'),
-            selected: timeDilation == slowTimeDilation,
+            selected: config.timeDilation == slowTimeDilation,
             onTap: () {
               _toggleAnimationSpeed(context);
             },
             trailing: Checkbox(
-              value: timeDilation == slowTimeDilation,
+              value: config.timeDilation == slowTimeDilation,
               onChanged: (bool value) {
                 _toggleAnimationSpeed(context);
               },

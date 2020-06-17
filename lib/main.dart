@@ -3,6 +3,8 @@
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
+import 'package:flutter/scheduler.dart' show timeDilation;
 
 import 'bottom_bar.dart';
 import 'fancy_item.dart';
@@ -26,13 +28,22 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
       : pointerY = <double>[],
         pointerTimestamp = <double>[],
         scrollerY = <double>[],
-        frameTimestamp = <double>[];
+        frameTimestamp = <double>[],
+        _scrollSummary = 'Waiting...';
   final SettingDrawer drawer = const SettingDrawer();
   List<double> pointerY;
   List<double> pointerTimestamp;
   List<double> scrollerY;
   List<double> frameTimestamp;
   ListView scroller;
+  String _scrollSummary;
+
+  String get scrollSummary => _scrollSummary;
+  void _updateSummary() {
+    setState(() {
+      _scrollSummary = pointerY.toString();
+    });
+  }
 
   void _scrollStart(PointerEvent details) {
     pointerY.clear();
@@ -40,23 +51,19 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
     scrollerY.clear();
     frameTimestamp.clear();
     _scrolling(details);
+    setState(() {
+      _scrollSummary = 'Waiting...';
+    });
   }
 
   void _scrollEnd(PointerEvent details) {
-    setState(() {
-      _scrolling(details);
-    });
+    _scrolling(details);
+    _updateSummary();
   }
 
   void _scrolling(PointerEvent details) {
     pointerY.add(details.position.dy);
-    pointerTimestamp.add(details.timeStamp.inMicroseconds/1000.0);
-  }
-
-  String get scrollSummary {
-    if (pointerY.isEmpty)
-      return 'Waiting...';
-    return pointerY.toString();
+    pointerTimestamp.add(details.timeStamp.inMicroseconds / 1000.0);
   }
 
   ListView _complexList(BuildContext context) {
@@ -99,6 +106,7 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
           final ScrollMode scrollMode = config.scrollMode;
           final bool performanceOverlay = config.performanceOverlay;
           final bool showInfo = config.showInfo;
+          timeDilation = config.timeDilation;
           scroller = scrollMode == ScrollMode.complex
               ? _complexList(context)
               : _tileList(context);
