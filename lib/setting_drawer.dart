@@ -59,6 +59,7 @@ class SettingDrawer extends StatelessWidget {
   void _changeScrollMode(BuildContext context, ScrollMode value) {
     ModelBinding.update<SettingConfig>(
         context, _config(context).copyBut(newScrollMode: value));
+    Navigator.pop(context);
   }
 
   void _toggleAnimationSpeed(BuildContext context) {
@@ -78,12 +79,14 @@ class SettingDrawer extends StatelessWidget {
         context,
         currentConfig.copyBut(
             newPerformanceOverlay: !currentConfig.performanceOverlay));
+    Navigator.pop(context);
   }
 
   void _toggleInfoBar(BuildContext context) {
     final SettingConfig currentConfig = _config(context);
     ModelBinding.update<SettingConfig>(
         context, currentConfig.copyBut(newShowInfo: !currentConfig.showInfo));
+    Navigator.pop(context);
   }
 
   @override
@@ -177,6 +180,7 @@ class SettingDrawer extends StatelessWidget {
             ),
           ),
           ListTile(
+            key: const Key('info-switcher'),
             leading: const Icon(Icons.equalizer),
             title: const Text('Show Scrolling Info'),
             selected: config.showInfo,

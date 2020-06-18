@@ -37,13 +37,13 @@ void main() {
         expect(list, isNotNull);
 
         // Scroll down
-        for (int i = 0; i < 5; i += 1) {
+        for (int i = 0; i < 10; i += 1) {
           await driver.scroll(list, 0.0, -300.0, const Duration(milliseconds: 300));
           await Future<void>.delayed(const Duration(milliseconds: 500));
         }
 
         // Scroll up
-        for (int i = 0; i < 5; i += 1) {
+        for (int i = 0; i < 10; i += 1) {
           await driver.scroll(list, 0.0, 300.0, const Duration(milliseconds: 300));
           await Future<void>.delayed(const Duration(milliseconds: 500));
         }
@@ -56,6 +56,12 @@ void main() {
 
     test('complex_layout_scroll_perf', () async {
       await testScrollPerf('complex-scroll', 'complex_layout_scroll_perf');
+    });
+
+    test('complex_layout_with_listener_scroll_perf', () async {
+      await driver.tap(find.byTooltip('Open navigation menu'));
+      await driver.tap(find.byValueKey('info-switcher'));
+      await testScrollPerf('complex-scroll', 'complex_layout_with_listener_scroll_perf');
     });
 
     test('tiles_scroll_perf', () async {
