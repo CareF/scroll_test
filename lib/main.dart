@@ -90,12 +90,14 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
   void _scrolling(PointerEvent details) {
     final double positionY = details.position.dy;
     final int timeStamp = details.timeStamp.inMicroseconds - _eventTimeOffset;
+    // print('timestamp: $timeStamp');
     pointerY.add(positionY);
     pointerTimestamp.add(timeStamp);
     Timeline.instantSync(
-      'ScrollingEvent',
+      'Scrolling_Event',
       arguments: <String, dynamic>{'timestamp': timeStamp, 'position': positionY},
     );
+    // print('recorded length: ${pointerTimestamp.length}');
   }
 
   ListView _complexList(BuildContext context) {
