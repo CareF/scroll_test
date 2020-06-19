@@ -141,6 +141,7 @@ class SettingDrawer extends StatelessWidget {
             },
             selected: !config.lightTheme,
             trailing: Radio<bool>(
+              key: const ValueKey<String>('dark-radio'),
               value: false,
               groupValue: config.lightTheme,
               onChanged: (bool value) {

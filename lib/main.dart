@@ -46,14 +46,22 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
   String _scrollSummary;
   
   void _updateFrameInfo(Duration elapsed) {
-    frameTimestamp.add(elapsed.inMicroseconds);
-    scrollerY.add(scroller.offset);
+    final int timeStamp = elapsed.inMicroseconds;
+    final double position = scroller.offset;
+    frameTimestamp.add(timeStamp);
+    scrollerY.add(position);
+    Timeline.instantSync(
+        'Frame_Scroll_Position',
+        arguments: <String, dynamic>{'timestamp': timeStamp, 'position': position},
+    );
   }
 
   String get scrollSummary => _scrollSummary;
   void _updateSummary() {
     setState(() {
-      _scrollSummary = pointerY.toString();
+      _scrollSummary = 'Number of inputs: ${pointerY.length}\n';
+      _scrollSummary += 'Number of frames: ${scrollerY.length}\n';
+      _scrollSummary += pointerY.toString();
       _scrollSummary += '\n';
       _scrollSummary += pointerTimestamp.toString();
       _scrollSummary += '\n';
@@ -69,16 +77,16 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
     pointerTimestamp.clear();
     scrollerY.clear();
     frameTimestamp.clear();
+    _scrollSummary = 'Waiting...';
   }
 
   void _scrollStart(PointerEvent details) {
-    _clearRecord();
+    setState(() {
+      _clearRecord();
+    });
     _eventTimeOffset = details.timeStamp.inMicroseconds;
     ticker.start();
     _scrolling(details);
-    setState(() {
-      _scrollSummary = 'Waiting...';
-    });
   }
 
   void _scrollEnd(PointerEvent details) {
@@ -103,7 +111,7 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
   ListView _complexList(BuildContext context) {
     return ListView.builder(
       // this key is used by the driver test
-      key: const Key('complex-scroll'),
+      key: const ValueKey<String>('complex-scroll'),
       controller: scroller,
       itemBuilder: (BuildContext context, int index) {
         if (index % 2 == 0)
@@ -133,7 +141,6 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
 
   @override
   Widget build(BuildContext context) {
-    _clearRecord();
     return ModelBinding<SettingConfig>(
       initialModel: const SettingConfig(),
       child: Builder(

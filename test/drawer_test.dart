@@ -24,13 +24,14 @@ void main() {
       // to the animation of the drawer showing up.
       await tester.pumpAndSettle();
 
-      final Finder darkRadio = find.descendant(
-        of: find.ancestor(
-          of: find.text('Dark'),
-          matching: find.byType(ListTile),
-        ),
-        matching: find.byType(typeOf<Radio<bool>>()),
-      );
+//      final Finder darkRadio = find.descendant(
+//        of: find.ancestor(
+//          of: find.text('Dark'),
+//          matching: find.byType(ListTile),
+//        ),
+//        matching: find.byType(typeOf<Radio<bool>>()),
+//      );
+      final Finder darkRadio = find.byKey(const ValueKey<String>('dark-radio'));
       expect(darkRadio, findsOneWidget);
       expect(tester.widget<Radio<bool>>(darkRadio).groupValue, true);
       await tester.tap(darkRadio);

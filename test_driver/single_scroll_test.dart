@@ -23,7 +23,7 @@ void main() {
     });
 
     Future<void> testScrollPerf(
-        String listKey, String summaryName, [int repeat=10]) async {
+        String listKey, String summaryName, [int freq=60]) async {
       // The slight initial delay avoids starting the timing during a
       // period of increased load on the device. Without this delay, the
       // benchmark has greater noise.
@@ -38,28 +38,14 @@ void main() {
         expect(list, isNotNull);
 
         // Scroll down
-        for (int i = 0; i < repeat; i += 1) {
           await driver.scroll(
             list,
             0.0,
-            -300.0,
+            -500.0,
             const Duration(milliseconds: 300),
-            frequency: 120,
+            frequency: freq,
           );
           await Future<void>.delayed(const Duration(milliseconds: 500));
-        }
-
-        // Scroll up
-        for (int i = 0; i < repeat; i += 1) {
-          await driver.scroll(
-            list,
-            0.0,
-            300.0,
-            const Duration(milliseconds: 300),
-            frequency: 120,
-          );
-          await Future<void>.delayed(const Duration(milliseconds: 500));
-        }
       });
 
       final TimelineSummary summary = TimelineSummary.summarize(timeline);
@@ -67,29 +53,16 @@ void main() {
       summary.writeTimelineToFile(summaryName, pretty: true);
     }
 
-    test('complex_layout_scroll_perf', () async {
-      await testScrollPerf('complex-scroll', 'complex_layout_scroll_perf');
-    });
-
-    test('complex_layout_with_listener_scroll_perf', () async {
+    test('complex_layout_with_listener_scroll_perf_single', () async {
       await driver.tap(find.byTooltip('Open navigation menu'));
       await driver.tap(find.byValueKey('info-switcher'));
       await testScrollPerf(
-          'complex-scroll', 'complex_layout_with_listener_scroll_perf');
+          'complex-scroll', 'complex_layout_with_listener_scroll_perf_single_60Hz', 60);
     });
 
-    test('complex_layout_with_listener_scroll_perf', () async {
-      await driver.tap(find.byTooltip('Open navigation menu'));
-      await driver.tap(find.byValueKey('info-switcher'));
+    test('complex_layout_with_listener_scroll_perf_single', () async {
       await testScrollPerf(
-          'complex-scroll', 'complex_layout_with_listener_scroll_perf', 1);
-    });
-
-    test('tiles_scroll_perf', () async {
-      // 'Open navigation menu' is the default value of openAppDrawerTooltip
-      await driver.tap(find.byTooltip('Open navigation menu'));
-      await driver.tap(find.byValueKey('scroll-switcher'));
-      await testScrollPerf('tiles-scroll', 'tiles_scroll_perf');
+          'complex-scroll', 'complex_layout_with_listener_scroll_perf_single_120Hz', 120);
     });
   });
 }
