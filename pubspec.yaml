@@ -8,8 +8,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_driver:
-    sdk: flutter
 
   # To change the version of the gallery assets, edit
   #   //packages/flutter_tools/lib/src/commands/update_packages.dart
@@ -25,6 +23,7 @@ dev_dependencies:
     sdk: flutter
   test: any
   e2e: any
+  pedantic: ^1.8.0
 
 
 flutter:
