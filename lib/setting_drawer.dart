@@ -16,6 +16,7 @@ class SettingConfig {
     this.timeDilation = 1.0,
     this.performanceOverlay = false,
     this.showInfo = false,
+    this.autoScroll = 0,
   });
 
   bool get isSlow => timeDilation > 1.0;
@@ -26,6 +27,7 @@ class SettingConfig {
     double newTimeDilation,
     bool newPerformanceOverlay,
     bool newShowInfo,
+    int newAutoScroll,
   }) =>
       SettingConfig(
         lightTheme: newLightTheme ?? lightTheme,
@@ -33,6 +35,7 @@ class SettingConfig {
         timeDilation: newTimeDilation ?? timeDilation,
         performanceOverlay: newPerformanceOverlay ?? performanceOverlay,
         showInfo: newShowInfo ?? showInfo,
+        autoScroll: newAutoScroll ?? autoScroll,
       );
 
   final ScrollMode scrollMode;
@@ -40,6 +43,7 @@ class SettingConfig {
   final double timeDilation;
   final bool performanceOverlay;
   final bool showInfo;
+  final int autoScroll;
 }
 
 class SettingDrawer extends StatelessWidget {
@@ -87,6 +91,13 @@ class SettingDrawer extends StatelessWidget {
     ModelBinding.update<SettingConfig>(
         context, currentConfig.copyBut(newShowInfo: !currentConfig.showInfo));
     Navigator.pop(context);
+  }
+
+  void _toggleAutoScroll(BuildContext context) {
+    final SettingConfig currentConfig = _config(context);
+    final int newAutoScroll = currentConfig.autoScroll == 0 ? 5000 : 0;
+    ModelBinding.update<SettingConfig>(
+        context, currentConfig.copyBut(newAutoScroll: newAutoScroll));
   }
 
   @override
@@ -192,6 +203,21 @@ class SettingDrawer extends StatelessWidget {
               value: config.showInfo,
               onChanged: (bool value) {
                 _toggleInfoBar(context);
+              },
+            ),
+          ),
+          ListTile(
+            key: const Key('auto-scroll'),
+            leading: const Icon(Icons.autorenew),
+            title: const Text('Auto Scrolling'),
+            selected: config.autoScroll > 0,
+            onTap: () {
+              _toggleAutoScroll(context);
+            },
+            trailing: Checkbox(
+              value: config.autoScroll > 0,
+              onChanged: (bool value) {
+                _toggleAutoScroll(context);
               },
             ),
           ),

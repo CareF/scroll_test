@@ -210,6 +210,18 @@ class _ComplexLayoutAppState extends State<ComplexLayoutApp> {
               ),
             );
           // }
+          if (config.autoScroll > 0) {
+            Future<void>.delayed(
+              const Duration(milliseconds: 100),
+                  () {
+                scroller.animateTo(
+                  scroller.offset + config.autoScroll,
+                  duration: const Duration(milliseconds: 5000),
+                  curve: Curves.linear,
+                );
+              },
+            );
+          }
           return theApp;
         },
       ),

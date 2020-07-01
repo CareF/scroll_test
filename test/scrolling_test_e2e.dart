@@ -9,9 +9,16 @@ Future<void> main() async {
   testWidgets('Test simple scrolling', (WidgetTester tester) async {
     app.main();
     await tester.pumpAndSettle();
+    // await tester.pumpWidget(app.ComplexLayoutApp());
+    print('Waiting for 5s.');
+    await Future<void>.delayed(const Duration(seconds: 5));
+    print('Testing start.');
 
     await tester.tap(find.byTooltip('Open navigation menu'));
+    // await tester.pumpAndSettle();
+
     await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey<String>('auto-scroll')));
     await tester.tap(find.byKey(const ValueKey<String>('info-switcher')));
     await tester.pumpAndSettle();
 
