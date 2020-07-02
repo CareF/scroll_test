@@ -22,7 +22,7 @@ dev_dependencies:
   flutter_driver:
     sdk: flutter
   test: any
-  e2e: any
+  e2e: 0.5.0+1
   pedantic: ^1.8.0
 
 
@@ -31,4 +31,5 @@ flutter:
   assets:
     - packages/flutter_gallery_assets/people/square/ali.png
     - packages/flutter_gallery_assets/places/india_chettinad_silk_maker.png
+    - scrollingRecord.json
 
