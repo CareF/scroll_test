@@ -22,7 +22,7 @@ Future<void> main() async {
 //  vmService = await vmServiceConnectUri('ws://localhost:${info.serverUri.port}${info.serverUri.path}ws');
 //  await vmService.setVMTimelineFlags(<String>['Dart']);
 
-  // E2EWidgetsFlutterBinding.ensureInitialized();
+  E2EWidgetsFlutterBinding.ensureInitialized();
   testWidgets('Test simple scrolling', (WidgetTester tester) async {
     // app.main();
     await tester.pumpWidget(app.ComplexLayoutApp());

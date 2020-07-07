@@ -13,7 +13,7 @@ Future<void> main() async {
   testWidgets('E2E test with recorded input', (WidgetTester tester) async {
     // TODO(CareF): how to get a good relative path
     // dev_assets?
-//    final String recordFile = await rootBundle.loadString('scrollingRecord.json');
+//    final String scrollingRecord = await rootBundle.loadString('scrollingRecord.json');
 
     app.main();
     await tester.pumpAndSettle();
@@ -22,7 +22,7 @@ Future<void> main() async {
     await tester.tap(find.byKey(const ValueKey<String>('info-switcher')));
     await tester.pumpAndSettle();
 
-    await tester.handleInputEventsRecords(recordFile);
+    await tester.handleInputEventsRecords(scrollingRecord);
     await tester.pumpAndSettle();
   }, semanticsEnabled: false);
 }
