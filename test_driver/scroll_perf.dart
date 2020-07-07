@@ -2,10 +2,12 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import 'package:flutter/widgets.dart';
 import 'package:flutter_driver/driver_extension.dart';
 import 'package:complex_layout/main.dart' as app;
 
 void main() {
   enableFlutterDriverExtension();
+  WidgetsBinding.instance.recordInput = true;
   app.main();
 }
