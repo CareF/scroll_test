@@ -1,10000 +1,7315 @@
 const String recordFile = r'''
 [
   {
-    "ts": 196312296606,
+    "ts": 27584686480,
     "events": [
       {
-        "type": "PointerAddedEvent",
-        "timeStamp": 196312273000,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "pressure": 0.0,
-        "pressureMin": 0.0
+        "timeStamp": 27584669000,
+        "change": 1,
+        "signalKind": 0,
+        "physicalX": 512.0,
+        "physicalY": 1927.0,
+        "synthesized": true,
+        "pressure": 0.21259842813014984,
+        "pressureMax": 1.0,
+        "size": 0.015748031437397003,
+        "radiusMajor": 2.0,
+        "radiusMinor": 2.0
       },
       {
-        "type": "PointerDownEvent",
-        "timeStamp": 196312273000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.36220473051071167,
-        "pressureMin": 0.0,
-        "size": 0.023622047156095505,
-        "radiusMajor": 1.4545454545454546,
-        "radiusMinor": 0.7272727272727273
+        "timeStamp": 27584669000,
+        "change": 4,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 512.0,
+        "physicalY": 1927.0,
+        "pressure": 0.21259842813014984,
+        "pressureMax": 1.0,
+        "size": 0.015748031437397003,
+        "radiusMajor": 2.0,
+        "radiusMinor": 2.0
       }
     ]
   },
   {
-    "ts": 196312305621,
+    "ts": 27584698046,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312282000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.3700787425041199,
-        "pressureMin": 0.0,
+        "timeStamp": 27584686000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 512.0,
+        "physicalY": 1927.0,
+        "pressure": 0.29921260476112366,
+        "pressureMax": 1.0,
         "size": 0.027559055015444756,
-        "radiusMajor": 1.4545454545454546,
-        "radiusMinor": 1.0909090909090908
+        "radiusMajor": 4.0,
+        "radiusMinor": 3.0
       }
     ]
   },
   {
-    "ts": 196312308366,
+    "ts": 27584702215,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312291000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.3858267664909363,
-        "pressureMin": 0.0,
+        "timeStamp": 27584695000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 512.0,
+        "physicalY": 1927.0,
+        "pressure": 0.35433071851730347,
+        "pressureMax": 1.0,
         "size": 0.027559055015444756,
-        "radiusMajor": 1.4545454545454546,
-        "radiusMinor": 1.0909090909090908
+        "radiusMajor": 4.0,
+        "radiusMinor": 3.0
       }
     ]
   },
   {
-    "ts": 196312309211,
+    "ts": 27584705456,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312299000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4094488024711609,
-        "pressureMin": 0.0,
-        "size": 0.027559055015444756,
-        "radiusMajor": 1.4545454545454546,
-        "radiusMinor": 1.0909090909090908
-      }
-    ]
-  },
-  {
-    "ts": 196312309922,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312308000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4251968562602997,
-        "pressureMin": 0.0,
-        "size": 0.027559055015444756,
-        "radiusMajor": 1.4545454545454546,
-        "radiusMinor": 1.0909090909090908
-      }
-    ]
-  },
-  {
-    "ts": 196312319008,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312317000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4330708682537079,
-        "pressureMin": 0.0,
+        "timeStamp": 27584704000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 512.0,
+        "physicalY": 1927.0,
+        "pressure": 0.4015747904777527,
+        "pressureMax": 1.0,
         "size": 0.031496062874794006,
-        "radiusMajor": 1.4545454545454546,
-        "radiusMinor": 1.4545454545454546
+        "radiusMajor": 4.0,
+        "radiusMinor": 4.0
       }
     ]
   },
   {
-    "ts": 196312356236,
+    "ts": 27584714253,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312325000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584712000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 512.0,
+        "physicalY": 1927.0,
         "pressure": 0.4330708682537079,
-        "pressureMin": 0.0,
+        "pressureMax": 1.0,
         "size": 0.031496062874794006,
-        "radiusMajor": 1.4545454545454546,
-        "radiusMinor": 1.4545454545454546
+        "radiusMajor": 4.0,
+        "radiusMinor": 4.0
       }
     ]
   },
   {
-    "ts": 196312356857,
+    "ts": 27584750350,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312334000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4330708682537079,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312357528,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312343000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4409448802471161,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312357938,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312352000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4409448802471161,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312362471,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312360000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4409448802471161,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312371637,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312369000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4488188922405243,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312386484,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312378000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4488188922405243,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312392113,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312386000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          698.5454545454545
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4488188922405243,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312397345,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312395000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          697.4545454545455
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584721000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 512.0,
+        "physicalY": 1927.0,
         "pressure": 0.4566929042339325,
-        "pressureMin": 0.0,
+        "pressureMax": 1.0,
         "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "radiusMajor": 5.0,
+        "radiusMinor": 4.0
       }
     ]
   },
   {
-    "ts": 196312405833,
+    "ts": 27584750929,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312404000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          696.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4566929042339325,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312415145,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312413000,
-        "pointer": 1,
-        "position": [
-          194.9090909090909,
-          695.2727272727273
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4645669162273407,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312423761,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312421000,
-        "pointer": 1,
-        "position": [
-          194.54545454545453,
-          693.8181818181819
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4645669162273407,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312434106,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312430000,
-        "pointer": 1,
-        "position": [
-          193.8181818181818,
-          692.3636363636364
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4724409580230713,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312441357,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312439000,
-        "pointer": 1,
-        "position": [
-          193.45454545454547,
-          690.9090909090909
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4724409580230713,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312449770,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312448000,
-        "pointer": 1,
-        "position": [
-          192.72727272727272,
-          689.4545454545455
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4724409580230713,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312458544,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312456000,
-        "pointer": 1,
-        "position": [
-          192.0,
-          688.0
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584730000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 512.0,
+        "physicalY": 1927.0,
         "pressure": 0.4803149700164795,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "pressureMax": 1.0,
+        "size": 0.03937007859349251,
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196312467669,
+    "ts": 27584751331,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312465000,
-        "pointer": 1,
-        "position": [
-          191.63636363636363,
-          686.1818181818181
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4803149700164795,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312478275,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312474000,
-        "pointer": 1,
-        "position": [
-          190.9090909090909,
-          684.7272727272727
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4803149700164795,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312485089,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312483000,
-        "pointer": 1,
-        "position": [
-          190.54545454545453,
-          682.9090909090909
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584739000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 515.0,
+        "physicalY": 1920.0,
+        "physicalDeltaX": 3.0,
+        "physicalDeltaY": -7.0,
         "pressure": 0.4881889820098877,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "pressureMax": 1.0,
+        "size": 0.03937007859349251,
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196312493916,
+    "ts": 27584751687,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312492000,
-        "pointer": 1,
-        "position": [
-          189.8181818181818,
-          680.7272727272727
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4960629940032959,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312502820,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312501000,
-        "pointer": 1,
-        "position": [
-          189.45454545454547,
-          678.5454545454545
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4960629940032959,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312513795,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312509000,
-        "pointer": 1,
-        "position": [
-          188.72727272727272,
-          676.3636363636364
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4960629940032959,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312521723,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312518000,
-        "pointer": 1,
-        "position": [
-          188.0,
-          674.5454545454545
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584747000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 520.0,
+        "physicalY": 1912.0,
+        "physicalDeltaX": 5.0,
+        "physicalDeltaY": -8.0,
         "pressure": 0.4881889820098877,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "pressureMax": 1.0,
+        "size": 0.03937007859349251,
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196312529553,
+    "ts": 27584757890,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312527000,
-        "pointer": 1,
-        "position": [
-          187.63636363636363,
-          672.0
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.5454545454545454
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4881889820098877,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312538814,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312536000,
-        "pointer": 1,
-        "position": [
-          187.27272727272728,
-          669.4545454545455
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.5454545454545454
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584756000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 524.0,
+        "physicalY": 1905.0,
+        "physicalDeltaX": 4.0,
+        "physicalDeltaY": -7.0,
         "pressure": 0.4960629940032959,
-        "pressureMin": 0.0,
+        "pressureMax": 1.0,
         "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "radiusMajor": 5.0,
+        "radiusMinor": 4.0
       }
     ]
   },
   {
-    "ts": 196312547233,
+    "ts": 27584767871,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312545000,
-        "pointer": 1,
-        "position": [
-          187.27272727272728,
-          667.2727272727273
-        ],
-        "delta": [
-          0.0,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584765000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 527.0,
+        "physicalY": 1899.0,
+        "physicalDeltaX": 3.0,
+        "physicalDeltaY": -6.0,
         "pressure": 0.4960629940032959,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "pressureMax": 1.0,
+        "size": 0.03937007859349251,
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196312557590,
+    "ts": 27584776072,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312554000,
-        "pointer": 1,
-        "position": [
-          186.9090909090909,
-          665.8181818181819
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4960629940032959,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312564342,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312562000,
-        "pointer": 1,
-        "position": [
-          186.1818181818182,
-          664.3636363636364
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584774000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 531.0,
+        "physicalY": 1892.0,
+        "physicalDeltaX": 4.0,
+        "physicalDeltaY": -7.0,
         "pressure": 0.5039370059967041,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "pressureMax": 1.0,
+        "size": 0.03937007859349251,
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196312573473,
+    "ts": 27584785344,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312571000,
-        "pointer": 1,
-        "position": [
-          185.8181818181818,
-          662.5454545454545
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312582400,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312580000,
-        "pointer": 1,
-        "position": [
-          185.45454545454547,
-          660.3636363636364
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312623760,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312589000,
-        "pointer": 1,
-        "position": [
-          185.45454545454547,
-          658.1818181818181
-        ],
-        "delta": [
-          0.0,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312624690,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312598000,
-        "pointer": 1,
-        "position": [
-          185.45454545454547,
-          656.7272727272727
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312625479,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312606000,
-        "pointer": 1,
-        "position": [
-          185.0909090909091,
-          654.5454545454545
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584782000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 533.0,
+        "physicalY": 1884.0,
+        "physicalDeltaX": 2.0,
+        "physicalDeltaY": -8.0,
         "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196312626181,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312615000,
-        "pointer": 1,
-        "position": [
-          185.0909090909091,
-          652.0
-        ],
-        "delta": [
-          0.0,
-          -2.5454545454545454
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
+        "pressureMax": 1.0,
         "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196312626767,
+    "ts": 27584794978,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312624000,
-        "pointer": 1,
-        "position": [
-          184.72727272727272,
-          649.4545454545455
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.5454545454545454
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584791000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 537.0,
+        "physicalY": 1875.0,
+        "physicalDeltaX": 4.0,
+        "physicalDeltaY": -9.0,
         "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312641342,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312633000,
-        "pointer": 1,
-        "position": [
-          184.72727272727272,
-          646.9090909090909
-        ],
-        "delta": [
-          0.0,
-          -2.5454545454545454
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312648313,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312642000,
-        "pointer": 1,
-        "position": [
-          184.72727272727272,
-          644.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -2.5454545454545454
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312652792,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312651000,
-        "pointer": 1,
-        "position": [
-          184.36363636363637,
-          642.5454545454545
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312661357,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312659000,
-        "pointer": 1,
-        "position": [
-          184.36363636363637,
-          641.0909090909091
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312672629,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312668000,
-        "pointer": 1,
-        "position": [
-          183.63636363636363,
-          639.6363636363636
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312680921,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312677000,
-        "pointer": 1,
-        "position": [
-          183.27272727272728,
-          637.8181818181819
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312688111,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312686000,
-        "pointer": 1,
-        "position": [
-          182.9090909090909,
-          635.2727272727273
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.5454545454545454
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312697203,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312695000,
-        "pointer": 1,
-        "position": [
-          182.1818181818182,
-          633.0909090909091
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
+        "pressureMax": 1.0,
         "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196312705555,
+    "ts": 27584804304,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312704000,
-        "pointer": 1,
-        "position": [
-          181.8181818181818,
-          630.9090909090909
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
+        "timeStamp": 27584800000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 539.0,
+        "physicalY": 1866.0,
+        "physicalDeltaX": 2.0,
+        "physicalDeltaY": -9.0,
+        "pressure": 0.5354330539703369,
+        "pressureMax": 1.0,
         "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196312714697,
+    "ts": 27584811286,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312712000,
-        "pointer": 1,
-        "position": [
-          181.45454545454547,
-          628.7272727272727
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196312725397,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312721000,
-        "pointer": 1,
-        "position": [
-          181.0909090909091,
-          626.5454545454545
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196312732302,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312730000,
-        "pointer": 1,
-        "position": [
-          181.0909090909091,
-          624.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196312741105,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312739000,
-        "pointer": 1,
-        "position": [
-          180.72727272727272,
-          621.8181818181819
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.5454545454545454
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312749851,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312748000,
-        "pointer": 1,
-        "position": [
-          180.36363636363637,
-          619.2727272727273
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.5454545454545454
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312758729,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312757000,
-        "pointer": 1,
-        "position": [
-          179.63636363636363,
-          617.0909090909091
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312769326,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312765000,
-        "pointer": 1,
-        "position": [
-          179.27272727272728,
-          615.2727272727273
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312776543,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312774000,
-        "pointer": 1,
-        "position": [
-          178.54545454545453,
-          613.8181818181819
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312785662,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312783000,
-        "pointer": 1,
-        "position": [
-          177.8181818181818,
-          611.6363636363636
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312794177,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312792000,
-        "pointer": 1,
-        "position": [
-          177.0909090909091,
-          609.8181818181819
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312803699,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312801000,
-        "pointer": 1,
-        "position": [
-          176.72727272727272,
-          608.0
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312813903,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312810000,
-        "pointer": 1,
-        "position": [
-          176.0,
-          606.5454545454545
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312820327,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312818000,
-        "pointer": 1,
-        "position": [
-          176.0,
-          604.7272727272727
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312829292,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312827000,
-        "pointer": 1,
-        "position": [
-          175.63636363636363,
-          602.9090909090909
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312838554,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312836000,
-        "pointer": 1,
-        "position": [
-          174.9090909090909,
-          601.0909090909091
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312848647,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312845000,
-        "pointer": 1,
-        "position": [
-          174.54545454545453,
-          599.2727272727273
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584808000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1858.0,
+        "physicalDeltaX": 3.0,
+        "physicalDeltaY": -8.0,
         "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312858802,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312854000,
-        "pointer": 1,
-        "position": [
-          174.1818181818182,
-          597.0909090909091
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312865000,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312863000,
-        "pointer": 1,
-        "position": [
-          173.8181818181818,
-          594.9090909090909
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312873785,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312872000,
-        "pointer": 1,
-        "position": [
-          173.45454545454547,
-          592.7272727272727
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312882591,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312880000,
-        "pointer": 1,
-        "position": [
-          172.72727272727272,
-          590.1818181818181
-        ],
-        "delta": [
-          -0.7272727272727273,
-          -2.5454545454545454
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312893160,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312889000,
-        "pointer": 1,
-        "position": [
-          172.36363636363637,
-          588.0
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312901080,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312898000,
-        "pointer": 1,
-        "position": [
-          172.0,
-          586.5454545454545
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312909090,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312907000,
-        "pointer": 1,
-        "position": [
-          171.63636363636363,
-          585.0909090909091
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312917969,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312916000,
-        "pointer": 1,
-        "position": [
-          171.63636363636363,
-          583.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312928405,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312925000,
-        "pointer": 1,
-        "position": [
-          171.63636363636363,
-          582.5454545454545
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312937868,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312933000,
-        "pointer": 1,
-        "position": [
-          171.63636363636363,
-          581.4545454545455
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312944415,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312942000,
-        "pointer": 1,
-        "position": [
-          171.63636363636363,
-          580.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312953485,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312951000,
-        "pointer": 1,
-        "position": [
-          171.63636363636363,
-          579.2727272727273
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312962170,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312960000,
-        "pointer": 1,
-        "position": [
-          171.63636363636363,
-          578.1818181818181
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312971361,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312969000,
-        "pointer": 1,
-        "position": [
-          171.63636363636363,
-          577.0909090909091
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312982169,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312978000,
-        "pointer": 1,
-        "position": [
-          171.63636363636363,
-          575.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312988687,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312986000,
-        "pointer": 1,
-        "position": [
-          171.27272727272728,
-          574.5454545454545
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196312997506,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196312995000,
-        "pointer": 1,
-        "position": [
-          171.27272727272728,
-          573.4545454545455
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313006415,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313004000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          572.0
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313016313,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313013000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          570.9090909090909
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313027005,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313022000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          569.8181818181819
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313033169,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313031000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          568.7272727272727
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313041909,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313039000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          566.9090909090909
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313050723,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313048000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          565.0909090909091
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313061049,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313057000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          563.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313071638,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313066000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          562.1818181818181
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313077325,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313075000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          561.0909090909091
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313086031,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313084000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          560.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
+        "pressureMax": 1.0,
         "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313094664,
+    "ts": 27584818811,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313092000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          559.2727272727273
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313105735,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313101000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          558.1818181818181
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313112768,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313110000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          557.4545454545455
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313121847,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313119000,
-        "pointer": 1,
-        "position": [
-          170.9090909090909,
-          556.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313130305,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313128000,
-        "pointer": 1,
-        "position": [
-          171.63636363636363,
-          555.6363636363636
-        ],
-        "delta": [
-          0.7272727272727273,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313140058,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313137000,
-        "pointer": 1,
-        "position": [
-          172.36363636363637,
-          554.5454545454545
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313151000,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313146000,
-        "pointer": 1,
-        "position": [
-          173.45454545454547,
-          553.4545454545455
-        ],
-        "delta": [
-          1.0909090909090908,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313157366,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313154000,
-        "pointer": 1,
-        "position": [
-          174.1818181818182,
-          552.3636363636364
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313165878,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313163000,
-        "pointer": 1,
-        "position": [
-          174.1818181818182,
-          551.2727272727273
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313174613,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313172000,
-        "pointer": 1,
-        "position": [
-          174.9090909090909,
-          549.4545454545455
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313184506,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313181000,
-        "pointer": 1,
-        "position": [
-          175.27272727272728,
-          548.3636363636364
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313195096,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313190000,
-        "pointer": 1,
-        "position": [
-          175.63636363636363,
-          547.2727272727273
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584817000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 543.0,
+        "physicalY": 1850.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -8.0,
         "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "pressureMax": 1.0,
         "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313201422,
+    "ts": 27584830126,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313199000,
-        "pointer": 1,
-        "position": [
-          176.0,
-          546.1818181818181
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584826000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 543.0,
+        "physicalY": 1841.0,
+        "physicalDeltaY": -9.0,
         "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "pressureMax": 1.0,
+        "size": 0.03937007859349251,
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313210509,
+    "ts": 27584836811,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313208000,
-        "pointer": 1,
-        "position": [
-          176.0,
-          545.0909090909091
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313219169,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313217000,
-        "pointer": 1,
-        "position": [
-          176.0,
-          543.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584835000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1834.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -7.0,
         "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "pressureMax": 1.0,
+        "size": 0.03937007859349251,
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313229136,
+    "ts": 27584845776,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313225000,
-        "pointer": 1,
-        "position": [
-          176.0,
-          542.5454545454545
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584844000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 546.0,
+        "physicalY": 1828.0,
+        "physicalDeltaX": 2.0,
+        "physicalDeltaY": -6.0,
         "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "pressureMax": 1.0,
+        "size": 0.03937007859349251,
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313239546,
+    "ts": 27584854779,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313234000,
-        "pointer": 1,
-        "position": [
-          176.0,
-          541.4545454545455
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584852000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 547.0,
+        "physicalY": 1822.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -6.0,
         "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
+        "pressureMax": 1.0,
+        "size": 0.03937007859349251,
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313245712,
+    "ts": 27584895344,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313243000,
-        "pointer": 1,
-        "position": [
-          176.0,
-          540.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313254427,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313252000,
-        "pointer": 1,
-        "position": [
-          176.36363636363637,
-          538.9090909090909
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584861000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1815.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -7.0,
         "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313263641,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313261000,
-        "pointer": 1,
-        "position": [
-          176.36363636363637,
-          537.0909090909091
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313273191,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313270000,
-        "pointer": 1,
-        "position": [
-          176.72727272727272,
-          536.0
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "pressureMax": 1.0,
         "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 5.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313283957,
+    "ts": 27584896245,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313278000,
-        "pointer": 1,
-        "position": [
-          176.72727272727272,
-          534.9090909090909
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313289746,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313287000,
-        "pointer": 1,
-        "position": [
-          176.72727272727272,
-          533.8181818181819
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313299026,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313296000,
-        "pointer": 1,
-        "position": [
-          176.72727272727272,
-          532.7272727272727
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313307857,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313305000,
-        "pointer": 1,
-        "position": [
-          176.72727272727272,
-          531.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313316707,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313314000,
-        "pointer": 1,
-        "position": [
-          176.72727272727272,
-          530.9090909090909
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313324440,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313322000,
-        "pointer": 1,
-        "position": [
-          176.72727272727272,
-          530.1818181818181
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313334221,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313331000,
-        "pointer": 1,
-        "position": [
-          177.0909090909091,
-          529.4545454545455
-        ],
-        "delta": [
-          0.36363636363636365,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313343125,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313340000,
-        "pointer": 1,
-        "position": [
-          177.8181818181818,
-          528.7272727272727
-        ],
-        "delta": [
-          0.7272727272727273,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313351160,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313349000,
-        "pointer": 1,
-        "position": [
-          178.54545454545453,
-          527.6363636363636
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313362452,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313358000,
-        "pointer": 1,
-        "position": [
-          179.27272727272728,
-          526.5454545454545
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313369773,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313367000,
-        "pointer": 1,
-        "position": [
-          179.63636363636363,
-          525.0909090909091
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313379370,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313376000,
-        "pointer": 1,
-        "position": [
-          180.36363636363637,
-          523.6363636363636
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313386692,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313384000,
-        "pointer": 1,
-        "position": [
-          181.0909090909091,
-          522.1818181818181
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
+        "timeStamp": 27584870000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1807.0,
+        "physicalDeltaY": -8.0,
         "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313396175,
+    "ts": 27584896971,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313393000,
-        "pointer": 1,
-        "position": [
-          181.45454545454547,
-          520.7272727272727
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
+        "timeStamp": 27584878000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1800.0,
+        "physicalDeltaY": -7.0,
+        "pressure": 0.5826771855354309,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313406868,
+    "ts": 27584897725,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313402000,
-        "pointer": 1,
-        "position": [
-          181.8181818181818,
-          519.6363636363636
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
+        "timeStamp": 27584887000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 549.0,
+        "physicalY": 1793.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -7.0,
+        "pressure": 0.5826771855354309,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313413874,
+    "ts": 27584898481,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313411000,
-        "pointer": 1,
-        "position": [
-          182.1818181818182,
-          518.5454545454545
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
+        "timeStamp": 27584896000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 549.0,
+        "physicalY": 1786.0,
+        "physicalDeltaY": -7.0,
+        "pressure": 0.5905511975288391,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196313422425,
+    "ts": 27584907052,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313420000,
-        "pointer": 1,
-        "position": [
-          182.54545454545453,
-          517.0909090909091
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313431059,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313428000,
-        "pointer": 1,
-        "position": [
-          183.27272727272728,
-          515.2727272727273
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313440722,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313437000,
-        "pointer": 1,
-        "position": [
-          183.63636363636363,
-          513.8181818181819
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313450789,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313446000,
-        "pointer": 1,
-        "position": [
-          184.0,
-          512.7272727272727
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313457061,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313455000,
-        "pointer": 1,
-        "position": [
-          184.72727272727272,
-          511.6363636363636
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313465817,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313464000,
-        "pointer": 1,
-        "position": [
-          185.0909090909091,
-          510.54545454545456
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313474610,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313472000,
-        "pointer": 1,
-        "position": [
-          185.8181818181818,
-          509.45454545454544
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313485490,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313481000,
-        "pointer": 1,
-        "position": [
-          186.54545454545453,
-          508.72727272727275
-        ],
-        "delta": [
-          0.7272727272727273,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313495670,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313490000,
-        "pointer": 1,
-        "position": [
-          186.9090909090909,
-          507.6363636363636
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313500963,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313499000,
-        "pointer": 1,
-        "position": [
-          187.63636363636363,
-          506.54545454545456
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313509846,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313508000,
-        "pointer": 1,
-        "position": [
-          187.63636363636363,
-          505.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313518733,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313516000,
-        "pointer": 1,
-        "position": [
-          187.63636363636363,
-          504.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313529707,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313525000,
-        "pointer": 1,
-        "position": [
-          187.63636363636363,
-          504.0
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313536362,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313534000,
-        "pointer": 1,
-        "position": [
-          188.0,
-          502.90909090909093
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313545570,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313543000,
-        "pointer": 1,
-        "position": [
-          188.36363636363637,
-          501.8181818181818
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313554084,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313552000,
-        "pointer": 1,
-        "position": [
-          188.72727272727272,
-          500.3636363636364
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313563069,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313561000,
-        "pointer": 1,
-        "position": [
-          189.45454545454547,
-          499.27272727272725
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313574244,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313570000,
-        "pointer": 1,
-        "position": [
-          189.8181818181818,
-          497.8181818181818
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313580462,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313578000,
-        "pointer": 1,
-        "position": [
-          190.1818181818182,
-          496.72727272727275
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313589293,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313587000,
-        "pointer": 1,
-        "position": [
-          190.1818181818182,
-          495.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313598428,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313596000,
-        "pointer": 1,
-        "position": [
-          190.54545454545453,
-          494.1818181818182
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313608228,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313605000,
-        "pointer": 1,
-        "position": [
-          190.9090909090909,
-          493.09090909090907
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313618487,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313614000,
-        "pointer": 1,
-        "position": [
-          190.9090909090909,
-          492.0
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313624952,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313623000,
-        "pointer": 1,
-        "position": [
-          191.27272727272728,
-          490.54545454545456
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313633872,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313631000,
-        "pointer": 1,
-        "position": [
-          191.63636363636363,
-          489.09090909090907
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313642346,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313640000,
-        "pointer": 1,
-        "position": [
-          192.36363636363637,
-          487.27272727272725
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313652559,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313649000,
-        "pointer": 1,
-        "position": [
-          193.0909090909091,
-          485.45454545454544
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313659785,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313658000,
-        "pointer": 1,
-        "position": [
-          193.45454545454547,
-          484.0
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313668737,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313666000,
-        "pointer": 1,
-        "position": [
-          193.8181818181818,
-          482.54545454545456
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313677443,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313675000,
-        "pointer": 1,
-        "position": [
-          194.1818181818182,
-          481.45454545454544
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313686672,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313684000,
-        "pointer": 1,
-        "position": [
-          194.54545454545453,
-          480.3636363636364
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313697388,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313693000,
-        "pointer": 1,
-        "position": [
-          194.9090909090909,
-          479.6363636363636
-        ],
-        "delta": [
-          0.36363636363636365,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313703805,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313701000,
-        "pointer": 1,
-        "position": [
-          194.9090909090909,
-          478.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313712833,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313710000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          477.45454545454544
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313721315,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313719000,
-        "pointer": 1,
-        "position": [
-          195.27272727272728,
-          476.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313731225,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313728000,
-        "pointer": 1,
-        "position": [
-          195.63636363636363,
-          475.27272727272725
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313741324,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313737000,
-        "pointer": 1,
-        "position": [
-          196.0,
-          473.8181818181818
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313747717,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313745000,
-        "pointer": 1,
-        "position": [
-          196.36363636363637,
-          472.3636363636364
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313756687,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313754000,
-        "pointer": 1,
-        "position": [
-          196.36363636363637,
-          470.90909090909093
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313765938,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313763000,
-        "pointer": 1,
-        "position": [
-          196.72727272727272,
-          469.45454545454544
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313775650,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313772000,
-        "pointer": 1,
-        "position": [
-          196.72727272727272,
-          468.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313783161,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313781000,
-        "pointer": 1,
-        "position": [
-          197.0909090909091,
-          466.90909090909093
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313791660,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313789000,
-        "pointer": 1,
-        "position": [
-          197.0909090909091,
-          465.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313800465,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313798000,
-        "pointer": 1,
-        "position": [
-          197.0909090909091,
-          464.0
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313809293,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313807000,
-        "pointer": 1,
-        "position": [
-          197.0909090909091,
-          461.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -2.1818181818181817
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313820407,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313816000,
-        "pointer": 1,
-        "position": [
-          197.0909090909091,
-          460.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313826542,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313824000,
-        "pointer": 1,
-        "position": [
-          197.0909090909091,
-          458.90909090909093
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313835662,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313833000,
-        "pointer": 1,
-        "position": [
-          197.0909090909091,
-          457.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313844358,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313842000,
-        "pointer": 1,
-        "position": [
-          197.45454545454547,
-          456.3636363636364
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313853744,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313851000,
-        "pointer": 1,
-        "position": [
-          197.45454545454547,
-          455.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313864104,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313860000,
-        "pointer": 1,
-        "position": [
-          197.45454545454547,
-          454.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313870578,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313868000,
-        "pointer": 1,
-        "position": [
-          197.8181818181818,
-          453.45454545454544
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313879447,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313877000,
-        "pointer": 1,
-        "position": [
-          197.8181818181818,
-          452.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313888582,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313886000,
-        "pointer": 1,
-        "position": [
-          198.1818181818182,
-          451.6363636363636
-        ],
-        "delta": [
-          0.36363636363636365,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313898263,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313895000,
-        "pointer": 1,
-        "position": [
-          198.9090909090909,
-          450.54545454545456
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313908529,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313904000,
-        "pointer": 1,
-        "position": [
-          199.27272727272728,
-          449.45454545454544
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313914674,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313912000,
-        "pointer": 1,
-        "position": [
-          200.0,
-          448.0
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313923613,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313921000,
-        "pointer": 1,
-        "position": [
-          200.36363636363637,
-          446.90909090909093
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313932483,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313930000,
-        "pointer": 1,
-        "position": [
-          200.36363636363637,
-          445.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313942763,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313939000,
-        "pointer": 1,
-        "position": [
-          200.36363636363637,
-          444.0
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196313950094,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313948000,
-        "pointer": 1,
-        "position": [
-          200.72727272727272,
-          442.90909090909093
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313958999,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313957000,
-        "pointer": 1,
-        "position": [
-          201.0909090909091,
-          441.45454545454544
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313968003,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313966000,
-        "pointer": 1,
-        "position": [
-          201.45454545454547,
-          440.3636363636364
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313976678,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313974000,
-        "pointer": 1,
-        "position": [
-          201.8181818181818,
-          439.27272727272725
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313987669,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313983000,
-        "pointer": 1,
-        "position": [
-          201.8181818181818,
-          437.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196313994098,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196313992000,
-        "pointer": 1,
-        "position": [
-          202.1818181818182,
-          436.72727272727275
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314003324,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314001000,
-        "pointer": 1,
-        "position": [
-          202.1818181818182,
-          435.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314011755,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314010000,
-        "pointer": 1,
-        "position": [
-          202.54545454545453,
-          434.1818181818182
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314021425,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314018000,
-        "pointer": 1,
-        "position": [
-          202.54545454545453,
-          432.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314031976,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314027000,
-        "pointer": 1,
-        "position": [
-          202.54545454545453,
-          431.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314038498,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314036000,
-        "pointer": 1,
-        "position": [
-          202.54545454545453,
-          430.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314046930,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314045000,
-        "pointer": 1,
-        "position": [
-          202.54545454545453,
-          429.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314055646,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314053000,
-        "pointer": 1,
-        "position": [
-          202.54545454545453,
-          428.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314065592,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314062000,
-        "pointer": 1,
-        "position": [
-          202.54545454545453,
-          427.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314076080,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314071000,
-        "pointer": 1,
-        "position": [
-          202.9090909090909,
-          426.1818181818182
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314082090,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314080000,
-        "pointer": 1,
-        "position": [
-          202.9090909090909,
-          425.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314090769,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314088000,
-        "pointer": 1,
-        "position": [
-          202.9090909090909,
-          424.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314099441,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314097000,
-        "pointer": 1,
-        "position": [
-          203.63636363636363,
-          423.27272727272725
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314109706,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314106000,
-        "pointer": 1,
-        "position": [
-          204.0,
-          422.1818181818182
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314117014,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314115000,
-        "pointer": 1,
-        "position": [
-          204.72727272727272,
-          420.72727272727275
-        ],
-        "delta": [
-          0.7272727272727273,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314125539,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314124000,
-        "pointer": 1,
-        "position": [
-          204.72727272727272,
-          419.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314134251,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314132000,
-        "pointer": 1,
-        "position": [
-          205.0909090909091,
-          417.8181818181818
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
+        "timeStamp": 27584905000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 550.0,
+        "physicalY": 1780.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -6.0,
+        "pressure": 0.5905511975288391,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314143445,
+    "ts": 27584915464,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314141000,
-        "pointer": 1,
-        "position": [
-          205.0909090909091,
-          416.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
+        "timeStamp": 27584914000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 550.0,
+        "physicalY": 1775.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.5905511975288391,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314153271,
+    "ts": 27584925348,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314150000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          415.6363636363636
-        ],
-        "delta": [
-          0.36363636363636365,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
+        "timeStamp": 27584923000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 550.0,
+        "physicalY": 1770.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.5905511975288391,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314160691,
+    "ts": 27584933882,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314159000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          414.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
+        "timeStamp": 27584931000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 550.0,
+        "physicalY": 1764.0,
+        "physicalDeltaY": -6.0,
+        "pressure": 0.5905511975288391,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27584942134,
+    "events": [
+      {
+        "timeStamp": 27584940000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 551.0,
+        "physicalY": 1759.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.5905511975288391,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314169479,
+    "ts": 27584953133,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314168000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          413.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5669291019439697,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314178128,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314176000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          411.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314188492,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314185000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          409.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314200449,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314194000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          408.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314204787,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314203000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          407.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "timeStamp": 27584949000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 552.0,
+        "physicalY": 1754.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.5984252095222473,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314213677,
+    "ts": 27584959714,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314212000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          406.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314222303,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314220000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          405.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314232133,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314229000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          404.0
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314242977,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314238000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          403.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314248448,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314247000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          402.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314257943,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314256000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          401.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314266542,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314264000,
-        "pointer": 1,
-        "position": [
-          205.45454545454547,
-          399.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314276738,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314273000,
-        "pointer": 1,
-        "position": [
-          205.8181818181818,
-          398.54545454545456
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314283743,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314282000,
-        "pointer": 1,
-        "position": [
-          206.1818181818182,
-          397.09090909090907
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314292709,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314291000,
-        "pointer": 1,
-        "position": [
-          206.1818181818182,
-          396.0
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314303222,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314299000,
-        "pointer": 1,
-        "position": [
-          206.54545454545453,
-          394.54545454545456
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "timeStamp": 27584958000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 552.0,
+        "physicalY": 1749.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.5984252095222473,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314311428,
+    "ts": 27584968699,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314308000,
-        "pointer": 1,
-        "position": [
-          206.54545454545453,
-          392.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "timeStamp": 27584966000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 553.0,
+        "physicalY": 1745.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.5984252095222473,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314318954,
+    "ts": 27584977715,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314317000,
-        "pointer": 1,
-        "position": [
-          206.9090909090909,
-          391.6363636363636
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5590550899505615,
-        "pressureMin": 0.0,
+        "timeStamp": 27584975000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1742.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.5984252095222473,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314328225,
+    "ts": 27584987665,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314326000,
-        "pointer": 1,
-        "position": [
-          206.9090909090909,
-          390.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "timeStamp": 27584984000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1737.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.6062992215156555,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314336791,
+    "ts": 27584997968,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314335000,
-        "pointer": 1,
-        "position": [
-          207.27272727272728,
-          389.45454545454544
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "timeStamp": 27584993000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1732.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.6141732335090637,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314345754,
+    "ts": 27585004148,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314344000,
-        "pointer": 1,
-        "position": [
-          207.27272727272728,
-          387.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314355573,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314352000,
-        "pointer": 1,
-        "position": [
-          207.27272727272728,
-          385.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314363143,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314361000,
-        "pointer": 1,
-        "position": [
-          207.27272727272728,
-          384.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314371879,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314370000,
-        "pointer": 1,
-        "position": [
-          207.27272727272728,
-          383.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314382274,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314379000,
-        "pointer": 1,
-        "position": [
-          207.27272727272728,
-          381.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314389256,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314387000,
-        "pointer": 1,
-        "position": [
-          207.27272727272728,
-          380.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314400170,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314396000,
-        "pointer": 1,
-        "position": [
-          207.27272727272728,
-          379.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314406837,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314405000,
-        "pointer": 1,
-        "position": [
-          207.63636363636363,
-          378.54545454545456
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314415701,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314414000,
-        "pointer": 1,
-        "position": [
-          208.0,
-          377.09090909090907
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314424467,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314423000,
-        "pointer": 1,
-        "position": [
-          208.0,
-          376.0
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314434408,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314431000,
-        "pointer": 1,
-        "position": [
-          208.0,
-          374.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314444416,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314440000,
-        "pointer": 1,
-        "position": [
-          208.36363636363637,
-          373.09090909090907
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314450846,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314449000,
-        "pointer": 1,
-        "position": [
-          208.36363636363637,
-          371.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314459566,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314458000,
-        "pointer": 1,
-        "position": [
-          208.36363636363637,
-          370.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314468309,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314466000,
-        "pointer": 1,
-        "position": [
-          208.36363636363637,
-          369.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
+        "timeStamp": 27585002000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1727.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.6141732335090637,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314478772,
+    "ts": 27585013025,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314475000,
-        "pointer": 1,
-        "position": [
-          208.36363636363637,
-          367.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "timeStamp": 27585010000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1722.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.6299212574958801,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314485899,
+    "ts": 27585021540,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314484000,
-        "pointer": 1,
-        "position": [
-          208.36363636363637,
-          366.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "timeStamp": 27585019000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1717.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.6299212574958801,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585032282,
+    "events": [
+      {
+        "timeStamp": 27585028000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1712.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.6377952694892883,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314494886,
+    "ts": 27585039317,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314493000,
-        "pointer": 1,
-        "position": [
-          208.36363636363637,
-          364.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "timeStamp": 27585037000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1708.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.6377952694892883,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585047819,
+    "events": [
+      {
+        "timeStamp": 27585046000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1705.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6377952694892883,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585056638,
+    "events": [
+      {
+        "timeStamp": 27585054000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1702.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585065879,
+    "events": [
+      {
+        "timeStamp": 27585063000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1700.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6377952694892883,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585077647,
+    "events": [
+      {
+        "timeStamp": 27585072000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1698.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585083090,
+    "events": [
+      {
+        "timeStamp": 27585081000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 553.0,
+        "physicalY": 1696.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6377952694892883,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585092015,
+    "events": [
+      {
+        "timeStamp": 27585089000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 552.0,
+        "physicalY": 1694.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6377952694892883,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585100551,
+    "events": [
+      {
+        "timeStamp": 27585098000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 551.0,
+        "physicalY": 1692.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6377952694892883,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585110540,
+    "events": [
+      {
+        "timeStamp": 27585107000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 551.0,
+        "physicalY": 1690.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6377952694892883,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585121055,
+    "events": [
+      {
+        "timeStamp": 27585116000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 550.0,
+        "physicalY": 1689.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.6377952694892883,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585127273,
+    "events": [
+      {
+        "timeStamp": 27585125000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 550.0,
+        "physicalY": 1687.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585135967,
+    "events": [
+      {
+        "timeStamp": 27585134000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 550.0,
+        "physicalY": 1686.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585144322,
+    "events": [
+      {
+        "timeStamp": 27585142000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 550.0,
+        "physicalY": 1684.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585155543,
+    "events": [
+      {
+        "timeStamp": 27585151000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 549.0,
+        "physicalY": 1683.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585162363,
+    "events": [
+      {
+        "timeStamp": 27585160000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 549.0,
+        "physicalY": 1682.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585171281,
+    "events": [
+      {
+        "timeStamp": 27585169000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 549.0,
+        "physicalY": 1680.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585180241,
+    "events": [
+      {
+        "timeStamp": 27585177000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 549.0,
+        "physicalY": 1678.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
       }
     ]
   },
   {
-    "ts": 196314503821,
+    "ts": 27585188749,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314502000,
-        "pointer": 1,
-        "position": [
-          208.36363636363637,
-          363.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
+        "timeStamp": 27585186000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1675.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
         "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
+        "radiusMajor": 6.0,
+        "radiusMinor": 5.0
+      }
+    ]
+  },
+  {
+    "ts": 27585199655,
+    "events": [
+      {
+        "timeStamp": 27585195000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1672.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585206307,
+    "events": [
+      {
+        "timeStamp": 27585204000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1669.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585215262,
+    "events": [
+      {
+        "timeStamp": 27585213000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1666.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585223672,
+    "events": [
+      {
+        "timeStamp": 27585221000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1664.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6456692814826965,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585233687,
+    "events": [
+      {
+        "timeStamp": 27585230000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1663.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.6535432934761047,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585244298,
+    "events": [
+      {
+        "timeStamp": 27585239000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1660.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6535432934761047,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585250420,
+    "events": [
+      {
+        "timeStamp": 27585248000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1658.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6535432934761047,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585258810,
+    "events": [
+      {
+        "timeStamp": 27585256000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 547.0,
+        "physicalY": 1655.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585268077,
+    "events": [
+      {
+        "timeStamp": 27585265000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 546.0,
+        "physicalY": 1652.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585278705,
+    "events": [
+      {
+        "timeStamp": 27585274000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 546.0,
+        "physicalY": 1649.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585285239,
+    "events": [
+      {
+        "timeStamp": 27585283000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 545.0,
+        "physicalY": 1647.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585293636,
+    "events": [
+      {
+        "timeStamp": 27585291000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1644.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585302462,
+    "events": [
+      {
+        "timeStamp": 27585300000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1642.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585312127,
+    "events": [
+      {
+        "timeStamp": 27585309000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1639.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585322603,
+    "events": [
+      {
+        "timeStamp": 27585318000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1636.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6692913174629211,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585328859,
+    "events": [
+      {
+        "timeStamp": 27585326000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1634.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6692913174629211,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585336795,
+    "events": [
+      {
+        "timeStamp": 27585335000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1631.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6692913174629211,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585346429,
+    "events": [
+      {
+        "timeStamp": 27585344000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1629.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6692913174629211,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585357381,
+    "events": [
+      {
+        "timeStamp": 27585353000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1627.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6692913174629211,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585363851,
+    "events": [
+      {
+        "timeStamp": 27585361000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1625.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585373344,
+    "events": [
+      {
+        "timeStamp": 27585371000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1622.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585381900,
+    "events": [
+      {
+        "timeStamp": 27585379000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1619.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585391177,
+    "events": [
+      {
+        "timeStamp": 27585388000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 543.0,
+        "physicalY": 1616.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585401543,
+    "events": [
+      {
+        "timeStamp": 27585397000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 543.0,
+        "physicalY": 1614.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6692913174629211,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585408447,
+    "events": [
+      {
+        "timeStamp": 27585406000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 543.0,
+        "physicalY": 1611.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6692913174629211,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585417080,
+    "events": [
+      {
+        "timeStamp": 27585414000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1607.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.6692913174629211,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585425695,
+    "events": [
+      {
+        "timeStamp": 27585423000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1604.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585435778,
+    "events": [
+      {
+        "timeStamp": 27585432000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1600.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585443027,
+    "events": [
+      {
+        "timeStamp": 27585440000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1596.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.6614173054695129,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585451664,
+    "events": [
+      {
+        "timeStamp": 27585449000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1593.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6692913174629211,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585459797,
+    "events": [
+      {
+        "timeStamp": 27585458000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1589.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.6771653294563293,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585468514,
+    "events": [
+      {
+        "timeStamp": 27585467000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1586.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6771653294563293,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585479252,
+    "events": [
+      {
+        "timeStamp": 27585475000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1583.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585485761,
+    "events": [
+      {
+        "timeStamp": 27585484000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1580.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6771653294563293,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585495608,
+    "events": [
+      {
+        "timeStamp": 27585493000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1577.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585503293,
+    "events": [
+      {
+        "timeStamp": 27585502000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1574.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585512784,
+    "events": [
+      {
+        "timeStamp": 27585510000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1571.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585521445,
+    "events": [
+      {
+        "timeStamp": 27585519000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1569.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585530141,
+    "events": [
+      {
+        "timeStamp": 27585528000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1566.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585538893,
+    "events": [
+      {
+        "timeStamp": 27585537000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1563.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585547604,
+    "events": [
+      {
+        "timeStamp": 27585545000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1561.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6929134130477905,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585559393,
+    "events": [
+      {
+        "timeStamp": 27585554000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1559.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6929134130477905,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585565966,
+    "events": [
+      {
+        "timeStamp": 27585563000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1558.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.6929134130477905,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585574919,
+    "events": [
+      {
+        "timeStamp": 27585572000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1555.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585583366,
+    "events": [
+      {
+        "timeStamp": 27585581000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1552.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585592939,
+    "events": [
+      {
+        "timeStamp": 27585589000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1549.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6771653294563293,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585603908,
+    "events": [
+      {
+        "timeStamp": 27585598000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1547.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6771653294563293,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585608960,
+    "events": [
+      {
+        "timeStamp": 27585607000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1544.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585617686,
+    "events": [
+      {
+        "timeStamp": 27585616000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1542.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585626392,
+    "events": [
+      {
+        "timeStamp": 27585625000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1540.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585637099,
+    "events": [
+      {
+        "timeStamp": 27585633000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1537.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6850393414497375,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585644029,
+    "events": [
+      {
+        "timeStamp": 27585642000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1532.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.6771653294563293,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585652953,
+    "events": [
+      {
+        "timeStamp": 27585651000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1528.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.6771653294563293,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585661681,
+    "events": [
+      {
+        "timeStamp": 27585660000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1523.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.6929134130477905,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585670686,
+    "events": [
+      {
+        "timeStamp": 27585668000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1519.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.6929134130477905,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585681371,
+    "events": [
+      {
+        "timeStamp": 27585677000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1515.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585687922,
+    "events": [
+      {
+        "timeStamp": 27585686000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1512.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585696574,
+    "events": [
+      {
+        "timeStamp": 27585695000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1509.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585707452,
+    "events": [
+      {
+        "timeStamp": 27585703000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 542.0,
+        "physicalY": 1505.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.6929134130477905,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585715234,
+    "events": [
+      {
+        "timeStamp": 27585712000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 543.0,
+        "physicalY": 1502.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585723085,
+    "events": [
+      {
+        "timeStamp": 27585721000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 543.0,
+        "physicalY": 1499.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585732512,
+    "events": [
+      {
+        "timeStamp": 27585730000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1496.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585741132,
+    "events": [
+      {
+        "timeStamp": 27585739000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 544.0,
+        "physicalY": 1492.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585749989,
+    "events": [
+      {
+        "timeStamp": 27585748000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 545.0,
+        "physicalY": 1489.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585760157,
+    "events": [
+      {
+        "timeStamp": 27585756000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 546.0,
+        "physicalY": 1485.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.6929134130477905,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585767617,
+    "events": [
+      {
+        "timeStamp": 27585765000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 547.0,
+        "physicalY": 1482.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.6929134130477905,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585776143,
+    "events": [
+      {
+        "timeStamp": 27585774000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 548.0,
+        "physicalY": 1479.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585785271,
+    "events": [
+      {
+        "timeStamp": 27585783000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 549.0,
+        "physicalY": 1476.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585794088,
+    "events": [
+      {
+        "timeStamp": 27585792000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 550.0,
+        "physicalY": 1473.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7007874250411987,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585804457,
+    "events": [
+      {
+        "timeStamp": 27585801000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 551.0,
+        "physicalY": 1470.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7086614370346069,
+        "pressureMax": 1.0,
+        "size": 0.04724409431219101,
+        "radiusMajor": 6.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585811791,
+    "events": [
+      {
+        "timeStamp": 27585809000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 552.0,
+        "physicalY": 1467.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7086614370346069,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585821317,
+    "events": [
+      {
+        "timeStamp": 27585818000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 552.0,
+        "physicalY": 1462.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7165354490280151,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585829614,
+    "events": [
+      {
+        "timeStamp": 27585827000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 553.0,
+        "physicalY": 1457.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7165354490280151,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585839804,
+    "events": [
+      {
+        "timeStamp": 27585836000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 553.0,
+        "physicalY": 1452.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7165354490280151,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585850333,
+    "events": [
+      {
+        "timeStamp": 27585845000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 553.0,
+        "physicalY": 1447.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585856027,
+    "events": [
+      {
+        "timeStamp": 27585853000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 553.0,
+        "physicalY": 1443.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27585864888,
+    "events": [
+      {
+        "timeStamp": 27585862000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1439.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585873197,
+    "events": [
+      {
+        "timeStamp": 27585871000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1435.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27585884361,
+    "events": [
+      {
+        "timeStamp": 27585880000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 554.0,
+        "physicalY": 1432.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27585891219,
+    "events": [
+      {
+        "timeStamp": 27585889000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 555.0,
+        "physicalY": 1428.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27585899381,
+    "events": [
+      {
+        "timeStamp": 27585897000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 556.0,
+        "physicalY": 1425.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27585908339,
+    "events": [
+      {
+        "timeStamp": 27585906000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 556.0,
+        "physicalY": 1421.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585918881,
+    "events": [
+      {
+        "timeStamp": 27585915000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 557.0,
+        "physicalY": 1418.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585928671,
+    "events": [
+      {
+        "timeStamp": 27585924000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 557.0,
+        "physicalY": 1415.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585935118,
+    "events": [
+      {
+        "timeStamp": 27585932000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 558.0,
+        "physicalY": 1412.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585943421,
+    "events": [
+      {
+        "timeStamp": 27585941000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 558.0,
+        "physicalY": 1408.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7244094610214233,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585952306,
+    "events": [
+      {
+        "timeStamp": 27585950000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 559.0,
+        "physicalY": 1405.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7322834730148315,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585963194,
+    "events": [
+      {
+        "timeStamp": 27585959000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 560.0,
+        "physicalY": 1402.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7401574850082397,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585970382,
+    "events": [
+      {
+        "timeStamp": 27585968000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 561.0,
+        "physicalY": 1398.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27585979182,
+    "events": [
+      {
+        "timeStamp": 27585976000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 561.0,
+        "physicalY": 1392.0,
+        "physicalDeltaY": -6.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05118110030889511,
+        "radiusMajor": 7.0,
+        "radiusMinor": 6.0
+      }
+    ]
+  },
+  {
+    "ts": 27585988852,
+    "events": [
+      {
+        "timeStamp": 27585985000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1386.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -6.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27585997960,
+    "events": [
+      {
+        "timeStamp": 27585994000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1381.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586007880,
+    "events": [
+      {
+        "timeStamp": 27586003000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1376.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7401574850082397,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586014162,
+    "events": [
+      {
+        "timeStamp": 27586012000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1373.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7322834730148315,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586022861,
+    "events": [
+      {
+        "timeStamp": 27586020000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1369.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7322834730148315,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586031609,
+    "events": [
+      {
+        "timeStamp": 27586029000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1365.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7322834730148315,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586041286,
+    "events": [
+      {
+        "timeStamp": 27586038000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1361.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7401574850082397,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586051756,
+    "events": [
+      {
+        "timeStamp": 27586047000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1358.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7401574850082397,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586057985,
+    "events": [
+      {
+        "timeStamp": 27586056000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1355.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7401574850082397,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586066894,
+    "events": [
+      {
+        "timeStamp": 27586064000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1352.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7322834730148315,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586075822,
+    "events": [
+      {
+        "timeStamp": 27586073000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 562.0,
+        "physicalY": 1348.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7322834730148315,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586086545,
+    "events": [
+      {
+        "timeStamp": 27586082000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 1345.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7401574850082397,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586097095,
+    "events": [
+      {
+        "timeStamp": 27586091000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 564.0,
+        "physicalY": 1341.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586101858,
+    "events": [
+      {
+        "timeStamp": 27586100000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 565.0,
+        "physicalY": 1339.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586110310,
+    "events": [
+      {
+        "timeStamp": 27586108000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 565.0,
+        "physicalY": 1336.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586119182,
+    "events": [
+      {
+        "timeStamp": 27586117000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 566.0,
+        "physicalY": 1333.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586130236,
+    "events": [
+      {
+        "timeStamp": 27586126000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 566.0,
+        "physicalY": 1330.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586136985,
+    "events": [
+      {
+        "timeStamp": 27586135000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 1326.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586146019,
+    "events": [
+      {
+        "timeStamp": 27586144000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 1322.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586154640,
+    "events": [
+      {
+        "timeStamp": 27586153000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 1318.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586164218,
+    "events": [
+      {
+        "timeStamp": 27586161000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 1314.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586172034,
+    "events": [
+      {
+        "timeStamp": 27586170000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 568.0,
+        "physicalY": 1309.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586181963,
+    "events": [
+      {
+        "timeStamp": 27586179000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 568.0,
+        "physicalY": 1304.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586190327,
+    "events": [
+      {
+        "timeStamp": 27586188000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1300.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586198948,
+    "events": [
+      {
+        "timeStamp": 27586197000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1296.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586209898,
+    "events": [
+      {
+        "timeStamp": 27586205000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1291.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586216718,
+    "events": [
+      {
+        "timeStamp": 27586214000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1286.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7401574850082397,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586225842,
+    "events": [
+      {
+        "timeStamp": 27586223000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1282.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586234370,
+    "events": [
+      {
+        "timeStamp": 27586232000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1277.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586243274,
+    "events": [
+      {
+        "timeStamp": 27586241000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1273.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586254440,
+    "events": [
+      {
+        "timeStamp": 27586249000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1270.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586260799,
+    "events": [
+      {
+        "timeStamp": 27586258000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1266.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586270023,
+    "events": [
+      {
+        "timeStamp": 27586267000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1262.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586278596,
+    "events": [
+      {
+        "timeStamp": 27586276000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1258.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586287585,
+    "events": [
+      {
+        "timeStamp": 27586285000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1253.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586298471,
+    "events": [
+      {
+        "timeStamp": 27586294000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1248.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586304643,
+    "events": [
+      {
+        "timeStamp": 27586302000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1242.0,
+        "physicalDeltaY": -6.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586313596,
+    "events": [
+      {
+        "timeStamp": 27586311000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1236.0,
+        "physicalDeltaY": -6.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586321564,
+    "events": [
+      {
+        "timeStamp": 27586320000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1230.0,
+        "physicalDeltaY": -6.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586332369,
+    "events": [
+      {
+        "timeStamp": 27586329000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1225.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586339502,
+    "events": [
+      {
+        "timeStamp": 27586337000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1220.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586348650,
+    "events": [
+      {
+        "timeStamp": 27586346000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1215.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586356539,
+    "events": [
+      {
+        "timeStamp": 27586355000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1211.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586365632,
+    "events": [
+      {
+        "timeStamp": 27586364000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1207.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586376323,
+    "events": [
+      {
+        "timeStamp": 27586372000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1203.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586382993,
+    "events": [
+      {
+        "timeStamp": 27586381000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1199.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586395369,
+    "events": [
+      {
+        "timeStamp": 27586390000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1196.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586400654,
+    "events": [
+      {
+        "timeStamp": 27586399000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1193.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586411563,
+    "events": [
+      {
+        "timeStamp": 27586408000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1190.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586418300,
+    "events": [
+      {
+        "timeStamp": 27586416000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1186.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586427922,
+    "events": [
+      {
+        "timeStamp": 27586425000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 1182.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586436171,
+    "events": [
+      {
+        "timeStamp": 27586434000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 570.0,
+        "physicalY": 1179.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586444880,
+    "events": [
+      {
+        "timeStamp": 27586443000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 570.0,
+        "physicalY": 1175.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586455481,
+    "events": [
+      {
+        "timeStamp": 27586452000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 570.0,
+        "physicalY": 1172.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586463123,
+    "events": [
+      {
+        "timeStamp": 27586461000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 570.0,
+        "physicalY": 1168.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586471467,
+    "events": [
+      {
+        "timeStamp": 27586470000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 570.0,
+        "physicalY": 1163.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586480319,
+    "events": [
+      {
+        "timeStamp": 27586478000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 570.0,
+        "physicalY": 1159.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586489733,
+    "events": [
+      {
+        "timeStamp": 27586487000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1156.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586500264,
+    "events": [
+      {
+        "timeStamp": 27586496000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1152.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586506615,
+    "events": [
+      {
+        "timeStamp": 27586505000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1149.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586515676,
+    "events": [
+      {
+        "timeStamp": 27586514000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1145.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586524227,
+    "events": [
+      {
+        "timeStamp": 27586522000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1142.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586534374,
+    "events": [
+      {
+        "timeStamp": 27586531000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1139.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586541940,
+    "events": [
+      {
+        "timeStamp": 27586540000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1136.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586550537,
+    "events": [
+      {
+        "timeStamp": 27586549000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1133.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586559248,
+    "events": [
+      {
+        "timeStamp": 27586557000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1130.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586568250,
+    "events": [
+      {
+        "timeStamp": 27586566000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1127.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586580122,
+    "events": [
+      {
+        "timeStamp": 27586575000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1125.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586586049,
+    "events": [
+      {
+        "timeStamp": 27586584000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1122.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586595125,
+    "events": [
+      {
+        "timeStamp": 27586593000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1119.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586603392,
+    "events": [
+      {
+        "timeStamp": 27586601000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1115.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586612407,
+    "events": [
+      {
+        "timeStamp": 27586610000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1111.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586623130,
+    "events": [
+      {
+        "timeStamp": 27586619000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1107.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586630000,
+    "events": [
+      {
+        "timeStamp": 27586628000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1103.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586638703,
+    "events": [
+      {
+        "timeStamp": 27586637000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1099.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586647238,
+    "events": [
+      {
+        "timeStamp": 27586646000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1094.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586656570,
+    "events": [
+      {
+        "timeStamp": 27586654000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1089.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586665656,
+    "events": [
+      {
+        "timeStamp": 27586663000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1085.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586674512,
+    "events": [
+      {
+        "timeStamp": 27586672000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 1081.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586682812,
+    "events": [
+      {
+        "timeStamp": 27586681000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 572.0,
+        "physicalY": 1077.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586692378,
+    "events": [
+      {
+        "timeStamp": 27586690000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 575.0,
+        "physicalY": 1073.0,
+        "physicalDeltaX": 3.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586702277,
+    "events": [
+      {
+        "timeStamp": 27586698000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 577.0,
+        "physicalY": 1069.0,
+        "physicalDeltaX": 2.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586708980,
+    "events": [
+      {
+        "timeStamp": 27586707000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 579.0,
+        "physicalY": 1065.0,
+        "physicalDeltaX": 2.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586717943,
+    "events": [
+      {
+        "timeStamp": 27586716000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 581.0,
+        "physicalY": 1062.0,
+        "physicalDeltaX": 2.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586726568,
+    "events": [
+      {
+        "timeStamp": 27586725000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 1060.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586736387,
+    "events": [
+      {
+        "timeStamp": 27586734000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 1057.0,
+        "physicalDeltaX": 2.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586746685,
+    "events": [
+      {
+        "timeStamp": 27586742000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 1055.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586753082,
+    "events": [
+      {
+        "timeStamp": 27586751000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 1052.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586761891,
+    "events": [
+      {
+        "timeStamp": 27586760000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 1049.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586770683,
+    "events": [
+      {
+        "timeStamp": 27586769000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 1048.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586780935,
+    "events": [
+      {
+        "timeStamp": 27586778000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 1045.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586788313,
+    "events": [
+      {
+        "timeStamp": 27586786000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 1041.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586797153,
+    "events": [
+      {
+        "timeStamp": 27586795000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 1038.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586805909,
+    "events": [
+      {
+        "timeStamp": 27586804000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 1035.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586815143,
+    "events": [
+      {
+        "timeStamp": 27586813000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 1033.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586825735,
+    "events": [
+      {
+        "timeStamp": 27586822000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 583.0,
+        "physicalY": 1030.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586832348,
+    "events": [
+      {
+        "timeStamp": 27586831000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 583.0,
+        "physicalY": 1027.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586841298,
+    "events": [
+      {
+        "timeStamp": 27586839000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 583.0,
+        "physicalY": 1024.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586850110,
+    "events": [
+      {
+        "timeStamp": 27586848000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 583.0,
+        "physicalY": 1020.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586859710,
+    "events": [
+      {
+        "timeStamp": 27586857000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 1016.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586867778,
+    "events": [
+      {
+        "timeStamp": 27586866000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 1011.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586876747,
+    "events": [
+      {
+        "timeStamp": 27586875000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 1007.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586885262,
+    "events": [
+      {
+        "timeStamp": 27586883000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 1003.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586894394,
+    "events": [
+      {
+        "timeStamp": 27586892000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 1000.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586904215,
+    "events": [
+      {
+        "timeStamp": 27586901000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 996.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586911462,
+    "events": [
+      {
+        "timeStamp": 27586910000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 993.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586920344,
+    "events": [
+      {
+        "timeStamp": 27586918000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 989.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586929028,
+    "events": [
+      {
+        "timeStamp": 27586927000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 986.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586938233,
+    "events": [
+      {
+        "timeStamp": 27586936000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 983.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586948796,
+    "events": [
+      {
+        "timeStamp": 27586945000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 980.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586955704,
+    "events": [
+      {
+        "timeStamp": 27586954000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 977.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586964430,
+    "events": [
+      {
+        "timeStamp": 27586963000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 973.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586973227,
+    "events": [
+      {
+        "timeStamp": 27586971000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 969.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586984176,
+    "events": [
+      {
+        "timeStamp": 27586980000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 965.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586993841,
+    "events": [
+      {
+        "timeStamp": 27586989000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 961.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27586999944,
+    "events": [
+      {
+        "timeStamp": 27586998000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 957.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587008802,
+    "events": [
+      {
+        "timeStamp": 27587007000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 583.0,
+        "physicalY": 953.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587017930,
+    "events": [
+      {
+        "timeStamp": 27587016000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 949.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587028938,
+    "events": [
+      {
+        "timeStamp": 27587024000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 585.0,
+        "physicalY": 944.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587039207,
+    "events": [
+      {
+        "timeStamp": 27587033000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 939.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587044157,
+    "events": [
+      {
+        "timeStamp": 27587042000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 936.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587052699,
+    "events": [
+      {
+        "timeStamp": 27587051000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 933.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587062276,
+    "events": [
+      {
+        "timeStamp": 27587060000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 930.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587073127,
+    "events": [
+      {
+        "timeStamp": 27587068000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 927.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587079372,
+    "events": [
+      {
+        "timeStamp": 27587077000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 924.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587088088,
+    "events": [
+      {
+        "timeStamp": 27587086000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 921.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587096620,
+    "events": [
+      {
+        "timeStamp": 27587095000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 918.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587107132,
+    "events": [
+      {
+        "timeStamp": 27587103000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 915.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587118189,
+    "events": [
+      {
+        "timeStamp": 27587112000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 911.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587123614,
+    "events": [
+      {
+        "timeStamp": 27587121000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 586.0,
+        "physicalY": 908.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587132206,
+    "events": [
+      {
+        "timeStamp": 27587130000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 585.0,
+        "physicalY": 904.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587140511,
+    "events": [
+      {
+        "timeStamp": 27587139000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 585.0,
+        "physicalY": 900.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587151923,
+    "events": [
+      {
+        "timeStamp": 27587148000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 585.0,
+        "physicalY": 896.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587158847,
+    "events": [
+      {
+        "timeStamp": 27587156000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 893.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587167762,
+    "events": [
+      {
+        "timeStamp": 27587165000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 584.0,
+        "physicalY": 889.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587176320,
+    "events": [
+      {
+        "timeStamp": 27587174000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 583.0,
+        "physicalY": 885.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587185904,
+    "events": [
+      {
+        "timeStamp": 27587183000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 583.0,
+        "physicalY": 882.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587196490,
+    "events": [
+      {
+        "timeStamp": 27587192000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 583.0,
+        "physicalY": 878.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587202668,
+    "events": [
+      {
+        "timeStamp": 27587201000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 583.0,
+        "physicalY": 873.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587211534,
+    "events": [
+      {
+        "timeStamp": 27587209000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 583.0,
+        "physicalY": 869.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587220559,
+    "events": [
+      {
+        "timeStamp": 27587218000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 865.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587230293,
+    "events": [
+      {
+        "timeStamp": 27587227000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 582.0,
+        "physicalY": 861.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587241058,
+    "events": [
+      {
+        "timeStamp": 27587236000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 581.0,
+        "physicalY": 858.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587246720,
+    "events": [
+      {
+        "timeStamp": 27587244000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 580.0,
+        "physicalY": 854.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587255490,
+    "events": [
+      {
+        "timeStamp": 27587253000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 579.0,
+        "physicalY": 851.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587264234,
+    "events": [
+      {
+        "timeStamp": 27587262000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 578.0,
+        "physicalY": 847.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587275494,
+    "events": [
+      {
+        "timeStamp": 27587271000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 577.0,
+        "physicalY": 844.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587281792,
+    "events": [
+      {
+        "timeStamp": 27587280000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 576.0,
+        "physicalY": 841.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587290757,
+    "events": [
+      {
+        "timeStamp": 27587289000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 576.0,
+        "physicalY": 838.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587299583,
+    "events": [
+      {
+        "timeStamp": 27587297000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 575.0,
+        "physicalY": 834.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587308626,
+    "events": [
+      {
+        "timeStamp": 27587306000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 574.0,
+        "physicalY": 830.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587319611,
+    "events": [
+      {
+        "timeStamp": 27587315000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 574.0,
+        "physicalY": 826.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587325986,
+    "events": [
+      {
+        "timeStamp": 27587324000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 823.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587335040,
+    "events": [
+      {
+        "timeStamp": 27587333000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 819.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587343634,
+    "events": [
+      {
+        "timeStamp": 27587341000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 572.0,
+        "physicalY": 816.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587353467,
+    "events": [
+      {
+        "timeStamp": 27587350000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 572.0,
+        "physicalY": 812.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587364248,
+    "events": [
+      {
+        "timeStamp": 27587359000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 572.0,
+        "physicalY": 808.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587370162,
+    "events": [
+      {
+        "timeStamp": 27587368000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 572.0,
+        "physicalY": 802.0,
+        "physicalDeltaY": -6.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587379362,
+    "events": [
+      {
+        "timeStamp": 27587377000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 798.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587387551,
+    "events": [
+      {
+        "timeStamp": 27587385000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 794.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587398665,
+    "events": [
+      {
+        "timeStamp": 27587394000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 570.0,
+        "physicalY": 790.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587405113,
+    "events": [
+      {
+        "timeStamp": 27587403000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 786.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587413984,
+    "events": [
+      {
+        "timeStamp": 27587412000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 568.0,
+        "physicalY": 782.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587422623,
+    "events": [
+      {
+        "timeStamp": 27587421000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 568.0,
+        "physicalY": 778.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587432446,
+    "events": [
+      {
+        "timeStamp": 27587429000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 568.0,
+        "physicalY": 775.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587443415,
+    "events": [
+      {
+        "timeStamp": 27587438000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 568.0,
+        "physicalY": 772.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587449414,
+    "events": [
+      {
+        "timeStamp": 27587447000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 568.0,
+        "physicalY": 769.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587457999,
+    "events": [
+      {
+        "timeStamp": 27587456000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 766.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587466642,
+    "events": [
+      {
+        "timeStamp": 27587465000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 762.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587477071,
+    "events": [
+      {
+        "timeStamp": 27587473000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 758.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587487194,
+    "events": [
+      {
+        "timeStamp": 27587482000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 754.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587493297,
+    "events": [
+      {
+        "timeStamp": 27587491000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 750.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587502125,
+    "events": [
+      {
+        "timeStamp": 27587500000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 566.0,
+        "physicalY": 747.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587510920,
+    "events": [
+      {
+        "timeStamp": 27587509000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 566.0,
+        "physicalY": 744.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587522139,
+    "events": [
+      {
+        "timeStamp": 27587518000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 566.0,
+        "physicalY": 739.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05511811003088951,
+        "radiusMajor": 7.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587532778,
+    "events": [
+      {
+        "timeStamp": 27587526000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 565.0,
+        "physicalY": 734.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587537065,
+    "events": [
+      {
+        "timeStamp": 27587535000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 564.0,
+        "physicalY": 730.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587545948,
+    "events": [
+      {
+        "timeStamp": 27587544000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 564.0,
+        "physicalY": 727.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587555600,
+    "events": [
+      {
+        "timeStamp": 27587553000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 724.0,
+        "physicalDeltaX": -1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587566294,
+    "events": [
+      {
+        "timeStamp": 27587562000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 721.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587572636,
+    "events": [
+      {
+        "timeStamp": 27587571000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 718.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587581549,
+    "events": [
+      {
+        "timeStamp": 27587579000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 716.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587589757,
+    "events": [
+      {
+        "timeStamp": 27587588000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 713.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587600160,
+    "events": [
+      {
+        "timeStamp": 27587597000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 711.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587611132,
+    "events": [
+      {
+        "timeStamp": 27587605000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 708.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587616639,
+    "events": [
+      {
+        "timeStamp": 27587614000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 706.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.748031497001648,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587634791,
+    "events": [
+      {
+        "timeStamp": 27587623000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 703.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587636638,
+    "events": [
+      {
+        "timeStamp": 27587632000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 700.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7559055089950562,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587643047,
+    "events": [
+      {
+        "timeStamp": 27587641000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 698.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587651160,
+    "events": [
+      {
+        "timeStamp": 27587649000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 695.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587660014,
+    "events": [
+      {
+        "timeStamp": 27587658000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 563.0,
+        "physicalY": 692.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587668553,
+    "events": [
+      {
+        "timeStamp": 27587667000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 564.0,
+        "physicalY": 688.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587677838,
+    "events": [
+      {
+        "timeStamp": 27587676000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 564.0,
+        "physicalY": 685.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587688443,
+    "events": [
+      {
+        "timeStamp": 27587685000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 565.0,
+        "physicalY": 682.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587695790,
+    "events": [
+      {
+        "timeStamp": 27587694000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 565.0,
+        "physicalY": 679.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587704878,
+    "events": [
+      {
+        "timeStamp": 27587703000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 566.0,
+        "physicalY": 676.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587713172,
+    "events": [
+      {
+        "timeStamp": 27587711000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 566.0,
+        "physicalY": 673.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587722973,
+    "events": [
+      {
+        "timeStamp": 27587720000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 670.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587733615,
+    "events": [
+      {
+        "timeStamp": 27587729000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 567.0,
+        "physicalY": 666.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587739675,
+    "events": [
+      {
+        "timeStamp": 27587738000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 568.0,
+        "physicalY": 661.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -5.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587748697,
+    "events": [
+      {
+        "timeStamp": 27587747000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 658.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587757185,
+    "events": [
+      {
+        "timeStamp": 27587755000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 654.0,
+        "physicalDeltaY": -4.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587767696,
+    "events": [
+      {
+        "timeStamp": 27587764000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 651.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587775051,
+    "events": [
+      {
+        "timeStamp": 27587773000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 569.0,
+        "physicalY": 648.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587783641,
+    "events": [
+      {
+        "timeStamp": 27587782000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 570.0,
+        "physicalY": 645.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587792764,
+    "events": [
+      {
+        "timeStamp": 27587791000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 571.0,
+        "physicalY": 642.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587801374,
+    "events": [
+      {
+        "timeStamp": 27587799000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 572.0,
+        "physicalY": 640.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587811840,
+    "events": [
+      {
+        "timeStamp": 27587808000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 572.0,
+        "physicalY": 637.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7716535329818726,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587819093,
+    "events": [
+      {
+        "timeStamp": 27587817000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 572.0,
+        "physicalY": 634.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.05905511975288391,
+        "radiusMajor": 8.0,
+        "radiusMinor": 7.0
+      }
+    ]
+  },
+  {
+    "ts": 27587827658,
+    "events": [
+      {
+        "timeStamp": 27587826000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 572.0,
+        "physicalY": 631.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587836398,
+    "events": [
+      {
+        "timeStamp": 27587834000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 629.0,
+        "physicalDeltaX": 1.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7637795209884644,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587846283,
+    "events": [
+      {
+        "timeStamp": 27587843000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 627.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587854200,
+    "events": [
+      {
+        "timeStamp": 27587852000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 625.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587862959,
+    "events": [
+      {
+        "timeStamp": 27587861000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 623.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587872107,
+    "events": [
+      {
+        "timeStamp": 27587870000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 622.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587880505,
+    "events": [
+      {
+        "timeStamp": 27587879000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 620.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
   },
   {
-    "ts": 196314513858,
+    "ts": 27587892429,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314510000,
-        "pointer": 1,
-        "position": [
-          208.36363636363637,
-          362.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
+        "timeStamp": 27587887000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 617.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587898743,
+    "events": [
+      {
+        "timeStamp": 27587896000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 614.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7952755689620972,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
   {
-    "ts": 196314523206,
+    "ts": 27587908024,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314519000,
-        "pointer": 1,
-        "position": [
-          208.36363636363637,
-          360.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
+        "timeStamp": 27587905000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 611.0,
+        "physicalDeltaY": -3.0,
+        "pressure": 0.7952755689620972,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
   {
-    "ts": 196314529881,
+    "ts": 27587916430,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314528000,
-        "pointer": 1,
-        "position": [
-          208.72727272727272,
-          358.90909090909093
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
+        "timeStamp": 27587914000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 609.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.7952755689620972,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
   {
-    "ts": 196314538709,
+    "ts": 27587925873,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314537000,
-        "pointer": 1,
-        "position": [
-          208.72727272727272,
-          357.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
+        "timeStamp": 27587923000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 608.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.7952755689620972,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
   },
   {
-    "ts": 196314547528,
+    "ts": 27587936802,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314546000,
-        "pointer": 1,
-        "position": [
-          208.72727272727272,
-          356.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
+        "timeStamp": 27587932000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 607.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.7952755689620972,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
   {
-    "ts": 196314557736,
+    "ts": 27587943116,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314554000,
-        "pointer": 1,
-        "position": [
-          208.72727272727272,
-          355.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
+        "timeStamp": 27587941000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 605.0,
+        "physicalDeltaY": -2.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
   {
-    "ts": 196314567915,
+    "ts": 27587952210,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314563000,
-        "pointer": 1,
-        "position": [
-          208.72727272727272,
-          354.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
+        "timeStamp": 27587949000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 604.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
   {
-    "ts": 196314574089,
+    "ts": 27587960860,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314572000,
-        "pointer": 1,
-        "position": [
-          208.72727272727272,
-          353.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314583082,
+        "timeStamp": 27587958000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 603.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587970769,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314581000,
-        "pointer": 1,
-        "position": [
-          208.72727272727272,
-          352.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314591991,
+        "timeStamp": 27587967000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 602.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.7952755689620972,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587987381,
     "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314590000,
-        "pointer": 1,
-        "position": [
-          208.72727272727272,
-          351.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314604782,
-    "events": [
+        "timeStamp": 27587985000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 601.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06692913174629211,
+        "radiusMajor": 9.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27587996285,
+    "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314598000,
-        "pointer": 1,
-        "position": [
-          208.72727272727272,
-          350.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314617858,
-    "events": [
+        "timeStamp": 27587994000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 600.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.787401556968689,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27588014067,
+    "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314607000,
-        "pointer": 1,
-        "position": [
-          208.72727272727272,
-          349.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314618548,
-    "events": [
+        "timeStamp": 27588011000,
+        "change": 5,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 599.0,
+        "physicalDeltaY": -1.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
+      }
+    ]
+  },
+  {
+    "ts": 27588065218,
+    "events": [
       {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314616000,
-        "pointer": 1,
-        "position": [
-          209.0909090909091,
-          348.0
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314626293,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314625000,
-        "pointer": 1,
-        "position": [
-          209.0909090909091,
-          346.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314635074,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314633000,
-        "pointer": 1,
-        "position": [
-          209.0909090909091,
-          345.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314648744,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314642000,
-        "pointer": 1,
-        "position": [
-          209.0909090909091,
-          344.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314653466,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314651000,
-        "pointer": 1,
-        "position": [
-          209.0909090909091,
-          344.0
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314661895,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314660000,
-        "pointer": 1,
-        "position": [
-          209.0909090909091,
-          342.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314670516,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314668000,
-        "pointer": 1,
-        "position": [
-          209.0909090909091,
-          341.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314680305,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314677000,
-        "pointer": 1,
-        "position": [
-          209.0909090909091,
-          340.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314690916,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314686000,
-        "pointer": 1,
-        "position": [
-          209.0909090909091,
-          339.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314697022,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314695000,
-        "pointer": 1,
-        "position": [
-          209.45454545454547,
-          338.54545454545456
-        ],
-        "delta": [
-          0.36363636363636365,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314705620,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314704000,
-        "pointer": 1,
-        "position": [
-          209.45454545454547,
-          337.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314714685,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314713000,
-        "pointer": 1,
-        "position": [
-          209.45454545454547,
-          336.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314725354,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314721000,
-        "pointer": 1,
-        "position": [
-          209.45454545454547,
-          335.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314732450,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314730000,
-        "pointer": 1,
-        "position": [
-          209.45454545454547,
-          334.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314741401,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314739000,
-        "pointer": 1,
-        "position": [
-          209.45454545454547,
-          333.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314750021,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314748000,
-        "pointer": 1,
-        "position": [
-          209.45454545454547,
-          332.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314758447,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314756000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          331.6363636363636
-        ],
-        "delta": [
-          0.36363636363636365,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314769563,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314765000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          331.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314777216,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314774000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          330.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314785719,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314783000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          329.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314793916,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314792000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          329.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314804217,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314800000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          328.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314814129,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314809000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          328.0
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314820316,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314818000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          327.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314829194,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314827000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          326.90909090909093
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314837809,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314836000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          326.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314848293,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314844000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          325.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314855344,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314853000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          324.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314864448,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314862000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          324.0
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314873054,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314871000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          322.90909090909093
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314881791,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314879000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          322.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314892285,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314888000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          321.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314899209,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314897000,
-        "pointer": 1,
-        "position": [
-          209.8181818181818,
-          320.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314908342,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314906000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          320.0
-        ],
-        "delta": [
-          0.36363636363636365,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314916808,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314915000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          319.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314925911,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314924000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          318.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314937312,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314932000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          317.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314943201,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314941000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          317.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196314952182,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314950000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          316.0
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314960766,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314959000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          314.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314970504,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314967000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          313.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314981051,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314976000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          312.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314987548,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314985000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          311.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196314996327,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196314994000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          309.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315005061,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315003000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          308.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315015599,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315011000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          307.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315025257,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315020000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          306.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315031268,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315029000,
-        "pointer": 1,
-        "position": [
-          210.1818181818182,
-          305.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315039754,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315038000,
-        "pointer": 1,
-        "position": [
-          210.54545454545453,
-          304.0
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315048347,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315047000,
-        "pointer": 1,
-        "position": [
-          210.54545454545453,
-          303.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315059841,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315055000,
-        "pointer": 1,
-        "position": [
-          210.54545454545453,
-          302.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315066120,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315064000,
-        "pointer": 1,
-        "position": [
-          210.54545454545453,
-          301.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315075226,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315073000,
-        "pointer": 1,
-        "position": [
-          210.54545454545453,
-          299.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315083800,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315082000,
-        "pointer": 1,
-        "position": [
-          210.9090909090909,
-          298.1818181818182
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315093437,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315090000,
-        "pointer": 1,
-        "position": [
-          210.9090909090909,
-          297.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315104402,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315099000,
-        "pointer": 1,
-        "position": [
-          210.9090909090909,
-          295.6363636363636
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315110254,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315108000,
-        "pointer": 1,
-        "position": [
-          210.9090909090909,
-          294.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315118867,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315117000,
-        "pointer": 1,
-        "position": [
-          211.27272727272728,
-          293.8181818181818
-        ],
-        "delta": [
-          0.36363636363636365,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315128011,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315126000,
-        "pointer": 1,
-        "position": [
-          211.27272727272728,
-          292.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315137581,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315134000,
-        "pointer": 1,
-        "position": [
-          211.27272727272728,
-          290.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315145282,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315143000,
-        "pointer": 1,
-        "position": [
-          211.27272727272728,
-          289.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315154177,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315152000,
-        "pointer": 1,
-        "position": [
-          211.63636363636363,
-          287.6363636363636
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5511810779571533,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315163119,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315161000,
-        "pointer": 1,
-        "position": [
-          211.63636363636363,
-          286.54545454545456
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315172561,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315170000,
-        "pointer": 1,
-        "position": [
-          211.63636363636363,
-          285.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315182827,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315178000,
-        "pointer": 1,
-        "position": [
-          211.63636363636363,
-          284.0
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315189203,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315187000,
-        "pointer": 1,
-        "position": [
-          211.63636363636363,
-          282.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315198348,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315196000,
-        "pointer": 1,
-        "position": [
-          211.63636363636363,
-          280.72727272727275
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315206930,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315205000,
-        "pointer": 1,
-        "position": [
-          212.0,
-          279.6363636363636
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315216369,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315213000,
-        "pointer": 1,
-        "position": [
-          212.36363636363637,
-          278.1818181818182
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315226855,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315222000,
-        "pointer": 1,
-        "position": [
-          212.72727272727272,
-          277.09090909090907
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315232839,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315231000,
-        "pointer": 1,
-        "position": [
-          213.0909090909091,
-          276.0
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315242004,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315240000,
-        "pointer": 1,
-        "position": [
-          213.45454545454547,
-          274.90909090909093
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315250490,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315248000,
-        "pointer": 1,
-        "position": [
-          213.8181818181818,
-          273.8181818181818
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315260982,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315257000,
-        "pointer": 1,
-        "position": [
-          213.8181818181818,
-          272.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315268174,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315266000,
-        "pointer": 1,
-        "position": [
-          213.8181818181818,
-          271.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315277080,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315275000,
-        "pointer": 1,
-        "position": [
-          213.8181818181818,
-          270.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315285843,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315284000,
-        "pointer": 1,
-        "position": [
-          213.8181818181818,
-          269.09090909090907
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315294482,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315292000,
-        "pointer": 1,
-        "position": [
-          213.8181818181818,
-          267.27272727272725
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315305973,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315301000,
-        "pointer": 1,
-        "position": [
-          213.8181818181818,
-          265.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315312362,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315310000,
-        "pointer": 1,
-        "position": [
-          213.8181818181818,
-          264.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315321108,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315319000,
-        "pointer": 1,
-        "position": [
-          213.8181818181818,
-          262.90909090909093
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5433070659637451,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315329753,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315328000,
-        "pointer": 1,
-        "position": [
-          214.1818181818182,
-          261.45454545454544
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315338737,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315336000,
-        "pointer": 1,
-        "position": [
-          214.54545454545453,
-          260.0
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315348834,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315345000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          258.90909090909093
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315356390,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315354000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          257.45454545454544
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315365449,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315363000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          256.3636363636364
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315373882,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315372000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          254.9090909090909
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315383462,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315380000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          253.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315391306,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315389000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          252.72727272727272
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315400353,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315398000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          251.27272727272728
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315408788,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315407000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          250.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315417511,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315415000,
-        "pointer": 1,
-        "position": [
-          215.27272727272728,
-          249.0909090909091
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315428612,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315424000,
-        "pointer": 1,
-        "position": [
-          215.27272727272728,
-          248.0
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315434892,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315433000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          246.9090909090909
-        ],
-        "delta": [
-          0.36363636363636365,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315443792,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315442000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          245.45454545454547
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315452375,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315450000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          243.63636363636363
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315462134,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315459000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          241.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315472572,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315468000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          240.0
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315478796,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315477000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          238.54545454545453
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315487805,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315486000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          236.72727272727272
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5354330539703369,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315496463,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315494000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          235.27272727272728
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315506543,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315503000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          233.45454545454547
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315514117,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315512000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          232.0
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315522802,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315521000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          230.1818181818182
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315531634,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315530000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          228.72727272727272
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315540096,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315538000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          227.27272727272728
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315551250,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315547000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          225.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315557888,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315556000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          224.0
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315566737,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315565000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          222.54545454545453
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315575657,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315573000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          221.45454545454547
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315585136,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315582000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          220.36363636363637
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315595914,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315591000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          218.9090909090909
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5118110179901123,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315602147,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315600000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          217.0909090909091
-        ],
-        "delta": [
-          0.0,
-          -1.8181818181818181
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315610880,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315609000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          215.63636363636363
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315619740,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315617000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          214.54545454545453
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315629430,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315626000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          213.45454545454547
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315639592,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315635000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          212.36363636363637
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315645855,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315644000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          210.9090909090909
-        ],
-        "delta": [
-          0.0,
-          -1.4545454545454546
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315655034,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315653000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          209.8181818181818
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315663425,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315661000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          208.72727272727272
-        ],
-        "delta": [
-          0.0,
-          -1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315674001,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315670000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          208.0
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315680958,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315679000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          207.27272727272728
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315689868,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315688000,
-        "pointer": 1,
-        "position": [
-          215.63636363636363,
-          206.54545454545453
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 2.1818181818181817,
-        "radiusMinor": 1.8181818181818181
-      }
-    ]
-  },
-  {
-    "ts": 196315698779,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315697000,
-        "pointer": 1,
-        "position": [
-          215.27272727272728,
-          205.8181818181818
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315707802,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315705000,
-        "pointer": 1,
-        "position": [
-          215.27272727272728,
-          205.45454545454547
-        ],
-        "delta": [
-          0.0,
-          -0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315718721,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315714000,
-        "pointer": 1,
-        "position": [
-          215.27272727272728,
-          204.72727272727272
-        ],
-        "delta": [
-          0.0,
-          -0.7272727272727273
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315725291,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315723000,
-        "pointer": 1,
-        "position": [
-          215.27272727272728,
-          204.36363636363637
-        ],
-        "delta": [
-          0.0,
-          -0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315733692,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315732000,
-        "pointer": 1,
-        "position": [
-          215.27272727272728,
-          204.0
-        ],
-        "delta": [
-          0.0,
-          -0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5196850299835205,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315742675,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315741000,
-        "pointer": 1,
-        "position": [
-          215.27272727272728,
-          203.63636363636363
-        ],
-        "delta": [
-          0.0,
-          -0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315752006,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315749000,
-        "pointer": 1,
-        "position": [
-          215.27272727272728,
-          203.27272727272728
-        ],
-        "delta": [
-          0.0,
-          -0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315762670,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315758000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          202.9090909090909
-        ],
-        "delta": [
-          -0.36363636363636365,
-          -0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315769238,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315767000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          202.54545454545453
-        ],
-        "delta": [
-          0.0,
-          -0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315831065,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315829000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          202.9090909090909
-        ],
-        "delta": [
-          0.0,
-          0.36363636363636365
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.5275590419769287,
-        "pressureMin": 0.0,
-        "size": 0.03543306887149811,
-        "radiusMajor": 1.8181818181818181,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315842548,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315837000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          204.0
-        ],
-        "delta": [
-          0.0,
-          1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.4724409580230713,
-        "pressureMin": 0.0,
-        "size": 0.031496062874794006,
-        "radiusMajor": 1.4545454545454546,
-        "radiusMinor": 1.4545454545454546
-      }
-    ]
-  },
-  {
-    "ts": 196315849091,
-    "events": [
-      {
-        "type": "PointerMoveEvent",
-        "timeStamp": 196315846000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          205.0909090909091
-        ],
-        "delta": [
-          0.0,
-          1.0909090909090908
-        ],
-        "buttons": 1,
-        "down": true,
-        "pressure": 0.31496062874794006,
-        "pressureMin": 0.0,
-        "size": 0.023622047156095505,
-        "radiusMajor": 1.4545454545454546,
-        "radiusMinor": 0.7272727272727273
-      }
-    ]
-  },
-  {
-    "ts": 196315864656,
-    "events": [
-      {
-        "type": "PointerUpEvent",
-        "timeStamp": 196315862000,
-        "pointer": 1,
-        "position": [
-          214.9090909090909,
-          205.0909090909091
-        ],
-        "pressure": 0.31496062874794006,
-        "pressureMin": 0.0,
-        "size": 0.023622047156095505,
-        "radiusMajor": 1.4545454545454546,
-        "radiusMinor": 0.7272727272727273
+        "timeStamp": 27588062000,
+        "change": 6,
+        "signalKind": 0,
+        "pointerIdentifier": 1,
+        "physicalX": 573.0,
+        "physicalY": 599.0,
+        "pressure": 0.7795275449752808,
+        "pressureMax": 1.0,
+        "size": 0.06299212574958801,
+        "radiusMajor": 8.0,
+        "radiusMinor": 8.0
       }
     ]
   }
