@@ -38,7 +38,7 @@ void main() {
       summary.writeSummaryToFile('waiting', pretty: true);
       summary.writeTimelineToFile('waiting', pretty: true);
       final PointerDataRecord inputEvents = PointerDataRecord.filterFrom(timeline);
-      inputEvents.writeToFile('scrollingRecord', pretty: true);
+      inputEvents.writeToFile('scrollingRecord', pretty: true, asDart: true);
     });
   });
 }
