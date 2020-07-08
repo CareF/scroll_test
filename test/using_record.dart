@@ -4,7 +4,8 @@ import 'package:gesture_recorder/gesture_recorder.dart';
 import 'package:e2e/e2e.dart';
 
 import 'package:complex_layout/main.dart' as app;
-import 'package:complex_layout/scrollingRecord.dart';
+
+import 'scrollingRecord.dart';
 
 Future<void> main() async {
   final E2EWidgetsFlutterBinding binding =
