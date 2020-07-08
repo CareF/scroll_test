@@ -9,15 +9,10 @@ import 'scrollingRecord.dart';
 
 Future<void> main() async {
   final E2EWidgetsFlutterBinding binding =
-  E2EWidgetsFlutterBinding.ensureInitialized() as E2EWidgetsFlutterBinding;
+    E2EWidgetsFlutterBinding.ensureInitialized() as E2EWidgetsFlutterBinding;
   binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;
   testWidgets('E2E test with recorded input', (WidgetTester tester) async {
-
     app.main();
-    await tester.pumpAndSettle();
-    await tester.tap(find.byTooltip('Open navigation menu'));
-    await tester.pumpAndSettle();
-    await tester.tap(find.byKey(const ValueKey<String>('info-switcher')));
     await tester.pumpAndSettle();
 
     await tester.handleInputEventsRecords(scrollingRecord);

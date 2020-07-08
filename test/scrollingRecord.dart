@@ -7,28 +7,15 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171693995000,
         "change": 1,
-        "signalKind": 0,
         "physicalX": 567.0,
-        "physicalY": 1943.0,
-        "synthesized": true,
-        "pressure": 0.3385826647281647,
-        "pressureMax": 1.0,
-        "size": 0.027559055015444756,
-        "radiusMajor": 4.0,
-        "radiusMinor": 3.0
+        "physicalY": 1943.0
       },
       {
         "timeStamp": 171693995000,
         "change": 4,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
-        "physicalY": 1943.0,
-        "pressure": 0.3385826647281647,
-        "pressureMax": 1.0,
-        "size": 0.027559055015444756,
-        "radiusMajor": 4.0,
-        "radiusMinor": 3.0
+        "physicalY": 1943.0
       }
     ]
   },
@@ -38,15 +25,9 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694011000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
-        "physicalY": 1943.0,
-        "pressure": 0.4330708682537079,
-        "pressureMax": 1.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 5.0,
-        "radiusMinor": 5.0
+        "physicalY": 1943.0
       }
     ]
   },
@@ -56,15 +37,9 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694020000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
-        "physicalY": 1943.0,
-        "pressure": 0.4803149700164795,
-        "pressureMax": 1.0,
-        "size": 0.03937007859349251,
-        "radiusMajor": 5.0,
-        "radiusMinor": 5.0
+        "physicalY": 1943.0
       }
     ]
   },
@@ -74,15 +49,9 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694029000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
-        "physicalY": 1943.0,
-        "pressure": 0.5196850299835205,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalY": 1943.0
       }
     ]
   },
@@ -92,15 +61,9 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694038000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
-        "physicalY": 1943.0,
-        "pressure": 0.5511810779571533,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalY": 1943.0
       }
     ]
   },
@@ -110,16 +73,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694047000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 1939.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.5748031735420227,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -129,16 +86,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694056000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 1933.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.5826771855354309,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -148,16 +99,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694064000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 1929.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.5905511975288391,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -167,16 +112,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694073000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 1925.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.5905511975288391,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -186,16 +125,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694082000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 1919.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.5905511975288391,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -205,16 +138,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694091000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 1913.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.5905511975288391,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -224,16 +151,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694100000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 1908.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.5905511975288391,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -243,17 +164,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694108000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 565.0,
         "physicalY": 1904.0,
         "physicalDeltaX": -2.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.5826771855354309,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -263,17 +178,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694117000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 563.0,
         "physicalY": 1901.0,
         "physicalDeltaX": -2.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.5748031735420227,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -283,17 +192,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694126000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 561.0,
         "physicalY": 1895.0,
         "physicalDeltaX": -2.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.5748031735420227,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -303,17 +206,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694135000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 558.0,
         "physicalY": 1889.0,
         "physicalDeltaX": -3.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.5826771855354309,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -323,17 +220,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694144000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 557.0,
         "physicalY": 1882.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.5826771855354309,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -343,17 +234,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694153000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 556.0,
         "physicalY": 1874.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -8.0,
-        "pressure": 0.5905511975288391,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -8.0
       }
     ]
   },
@@ -363,17 +248,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694161000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 555.0,
         "physicalY": 1866.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -8.0,
-        "pressure": 0.5984252095222473,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -8.0
       }
     ]
   },
@@ -383,16 +262,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694170000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 555.0,
         "physicalY": 1858.0,
-        "physicalDeltaY": -8.0,
-        "pressure": 0.6062992215156555,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -8.0
       }
     ]
   },
@@ -402,17 +275,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694179000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 554.0,
         "physicalY": 1851.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.6062992215156555,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -422,17 +289,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694188000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 553.0,
         "physicalY": 1842.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -9.0,
-        "pressure": 0.6062992215156555,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -9.0
       }
     ]
   },
@@ -442,17 +303,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694197000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 552.0,
         "physicalY": 1833.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -9.0,
-        "pressure": 0.5984252095222473,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -9.0
       }
     ]
   },
@@ -462,17 +317,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694206000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 551.0,
         "physicalY": 1825.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -8.0,
-        "pressure": 0.6062992215156555,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -8.0
       }
     ]
   },
@@ -482,16 +331,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694214000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 551.0,
         "physicalY": 1817.0,
-        "physicalDeltaY": -8.0,
-        "pressure": 0.6062992215156555,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -8.0
       }
     ]
   },
@@ -501,17 +344,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694223000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 550.0,
         "physicalY": 1807.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -10.0,
-        "pressure": 0.6062992215156555,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -10.0
       }
     ]
   },
@@ -521,17 +358,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694232000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 549.0,
         "physicalY": 1798.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -9.0,
-        "pressure": 0.6062992215156555,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -9.0
       }
     ]
   },
@@ -541,16 +372,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694241000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 549.0,
         "physicalY": 1789.0,
-        "physicalDeltaY": -9.0,
-        "pressure": 0.6062992215156555,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -9.0
       }
     ]
   },
@@ -560,17 +385,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694249000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 548.0,
         "physicalY": 1780.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -9.0,
-        "pressure": 0.6141732335090637,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -9.0
       }
     ]
   },
@@ -580,16 +399,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694258000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 548.0,
         "physicalY": 1773.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.6141732335090637,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -599,16 +412,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694267000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 548.0,
         "physicalY": 1766.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.6062992215156555,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -618,17 +425,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694276000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 547.0,
         "physicalY": 1758.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -8.0,
-        "pressure": 0.6141732335090637,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -8.0
       }
     ]
   },
@@ -638,17 +439,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694284000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1750.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -8.0,
-        "pressure": 0.6141732335090637,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -8.0
       }
     ]
   },
@@ -658,16 +453,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694293000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1741.0,
-        "physicalDeltaY": -9.0,
-        "pressure": 0.6220472455024719,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -9.0
       }
     ]
   },
@@ -677,17 +466,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694302000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1733.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -8.0,
-        "pressure": 0.6299212574958801,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -8.0
       }
     ]
   },
@@ -697,16 +480,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694311000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1725.0,
-        "physicalDeltaY": -8.0,
-        "pressure": 0.6299212574958801,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -8.0
       }
     ]
   },
@@ -716,17 +493,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694319000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 544.0,
         "physicalY": 1718.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.6377952694892883,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -736,16 +507,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694328000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 544.0,
         "physicalY": 1711.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.6377952694892883,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -755,17 +520,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694337000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 543.0,
         "physicalY": 1705.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6456692814826965,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -775,16 +534,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694346000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 543.0,
         "physicalY": 1699.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6456692814826965,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -794,16 +547,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694355000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 543.0,
         "physicalY": 1694.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6456692814826965,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -813,17 +560,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694364000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 542.0,
         "physicalY": 1689.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6456692814826965,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -833,16 +574,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694372000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 542.0,
         "physicalY": 1684.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6456692814826965,
-        "pressureMax": 1.0,
-        "size": 0.04330708831548691,
-        "radiusMajor": 6.0,
-        "radiusMinor": 5.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -852,16 +587,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694381000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 542.0,
         "physicalY": 1677.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.6456692814826965,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -871,17 +600,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694390000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 541.0,
         "physicalY": 1672.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6456692814826965,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -891,17 +614,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694399000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 540.0,
         "physicalY": 1667.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6456692814826965,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -911,16 +628,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694408000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 540.0,
         "physicalY": 1663.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6535432934761047,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -930,17 +641,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694417000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1659.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6535432934761047,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -950,16 +655,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694425000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1655.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6614173054695129,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -969,17 +668,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694434000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 538.0,
         "physicalY": 1651.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -989,16 +682,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694443000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 538.0,
         "physicalY": 1647.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1008,17 +695,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694452000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1642.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -1028,16 +709,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694461000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1638.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1047,16 +722,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694470000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1634.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1066,16 +735,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694478000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1631.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1085,16 +748,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694487000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1627.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6614173054695129,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1104,16 +761,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694496000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1622.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6614173054695129,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -1123,16 +774,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694505000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1619.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6535432934761047,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1142,16 +787,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694514000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1615.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6614173054695129,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1161,16 +800,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694523000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1612.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6614173054695129,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1180,16 +813,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694531000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1607.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6535432934761047,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -1199,16 +826,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694540000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1601.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6535432934761047,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -1218,16 +839,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694549000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1597.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1237,16 +852,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694558000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1592.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -1256,16 +865,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694567000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1588.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1275,16 +878,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694576000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1584.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1294,16 +891,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694584000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1580.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1313,16 +904,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694593000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1576.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1332,16 +917,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694602000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1572.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1351,16 +930,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694611000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1568.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1370,16 +943,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694620000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1564.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1389,16 +956,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694628000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 537.0,
         "physicalY": 1561.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1408,17 +969,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694637000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 538.0,
         "physicalY": 1557.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1428,16 +983,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694646000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 538.0,
         "physicalY": 1554.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1447,17 +996,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694655000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1550.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1467,16 +1010,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694664000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1547.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1486,16 +1023,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694673000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1544.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1505,16 +1036,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694681000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1540.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1524,16 +1049,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694690000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1535.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -1543,16 +1062,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694699000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1530.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -1562,16 +1075,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694708000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1526.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1581,16 +1088,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694717000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1521.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -1600,16 +1101,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694725000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 539.0,
         "physicalY": 1517.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1619,17 +1114,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694734000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 540.0,
         "physicalY": 1514.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1639,16 +1128,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694743000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 540.0,
         "physicalY": 1511.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1658,16 +1141,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694752000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 540.0,
         "physicalY": 1508.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1677,17 +1154,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694760000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 541.0,
         "physicalY": 1505.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1697,16 +1168,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694769000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 541.0,
         "physicalY": 1502.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1716,16 +1181,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694778000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 541.0,
         "physicalY": 1499.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1735,16 +1194,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694787000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 541.0,
         "physicalY": 1496.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1754,17 +1207,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694795000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 542.0,
         "physicalY": 1493.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1774,16 +1221,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694804000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 542.0,
         "physicalY": 1490.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1793,17 +1234,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694813000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 543.0,
         "physicalY": 1486.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1813,17 +1248,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694822000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 544.0,
         "physicalY": 1482.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1833,16 +1262,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694831000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 544.0,
         "physicalY": 1479.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1852,17 +1275,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694839000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1476.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -1872,16 +1289,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694848000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1472.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -1891,16 +1302,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694857000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1467.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -1910,16 +1315,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694866000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1461.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -1929,16 +1328,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694875000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1455.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6692913174629211,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -1948,16 +1341,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694884000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1449.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6771653294563293,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -1967,16 +1354,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694892000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1443.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -1986,16 +1367,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694901000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1437.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2005,16 +1380,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694910000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1432.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2024,16 +1393,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694919000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1427.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2043,16 +1406,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694928000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1422.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2062,16 +1419,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694936000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1416.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2081,16 +1432,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694945000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1411.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2100,16 +1445,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694954000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1406.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2119,16 +1458,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694963000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1400.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2138,16 +1471,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694972000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1393.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -2157,16 +1484,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694981000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1387.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2176,16 +1497,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694989000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1381.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2195,16 +1510,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171694998000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1375.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2214,16 +1523,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695007000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1369.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2233,16 +1536,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695016000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1364.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2252,16 +1549,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695025000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1360.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2271,16 +1562,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695033000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1357.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -2290,16 +1575,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695042000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1353.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2309,16 +1588,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695051000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1350.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -2328,16 +1601,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695060000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1346.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2347,17 +1614,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695069000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1343.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -2367,16 +1628,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695078000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1340.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -2386,16 +1641,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695086000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1337.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -2405,16 +1654,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695095000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1335.0,
-        "physicalDeltaY": -2.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -2.0
       }
     ]
   },
@@ -2424,16 +1667,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695104000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1332.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -2443,16 +1680,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695113000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1330.0,
-        "physicalDeltaY": -2.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -2.0
       }
     ]
   },
@@ -2462,16 +1693,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695122000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1327.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -2481,16 +1706,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695131000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1323.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2500,16 +1719,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695139000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1317.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2519,16 +1732,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695148000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1312.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2538,16 +1745,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695157000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1307.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2557,16 +1758,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695166000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1302.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2576,16 +1771,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695175000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1298.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2595,16 +1784,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695183000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1294.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2614,16 +1797,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695192000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1289.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2633,16 +1810,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695201000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1285.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2652,16 +1823,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695210000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1281.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2671,16 +1836,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695219000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1276.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2690,16 +1849,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695228000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1271.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2709,16 +1862,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695237000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1266.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2728,16 +1875,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695245000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1262.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2747,16 +1888,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695254000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1256.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2766,16 +1901,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695263000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1249.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -2785,16 +1914,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695272000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1243.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2804,16 +1927,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695281000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1237.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2823,16 +1940,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695289000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1232.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2842,16 +1953,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695298000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1226.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -2861,16 +1966,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695307000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1222.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2880,16 +1979,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695316000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1217.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2899,16 +1992,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695324000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1213.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2918,16 +2005,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695333000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1209.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2937,16 +2018,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695342000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1204.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -2956,16 +2031,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695351000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1200.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2975,16 +2044,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695360000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1196.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -2994,16 +2057,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695369000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1192.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3013,16 +2070,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695378000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1188.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3032,16 +2083,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695386000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1183.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3051,16 +2096,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695395000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1177.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -3070,16 +2109,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695404000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1172.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3089,16 +2122,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695413000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1167.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3108,17 +2135,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695422000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1163.0,
         "physicalDeltaX": -1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3128,16 +2149,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695430000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1158.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3147,16 +2162,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695439000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1154.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3166,16 +2175,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695448000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1150.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3185,16 +2188,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695457000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1146.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3204,16 +2201,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695465000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1143.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -3223,16 +2214,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695474000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1139.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3242,16 +2227,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695483000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1136.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -3261,16 +2240,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695492000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1132.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3280,16 +2253,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695501000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1128.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3299,16 +2266,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695510000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1125.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -3318,16 +2279,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695518000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1121.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3337,16 +2292,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695527000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1118.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -3356,16 +2305,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695536000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1115.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -3375,16 +2318,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695545000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1110.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3394,16 +2331,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695554000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1104.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -3413,16 +2344,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695563000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1099.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3432,16 +2357,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695571000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1093.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -3451,16 +2370,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695580000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1088.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3470,16 +2383,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695589000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1084.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3489,16 +2396,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695598000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1080.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3508,16 +2409,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695606000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1076.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3527,16 +2422,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695615000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1073.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -3546,16 +2435,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695624000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1068.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3565,16 +2448,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695633000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1064.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3584,16 +2461,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695642000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1060.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3603,16 +2474,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695650000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1056.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6850393414497375,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3622,16 +2487,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695659000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1052.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3641,16 +2500,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695668000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1047.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3660,16 +2513,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695677000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1042.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3679,16 +2526,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695686000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1035.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -3698,16 +2539,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695695000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1030.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.04724409431219101,
-        "radiusMajor": 6.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3717,16 +2552,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695703000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1024.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -3736,16 +2565,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695712000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 545.0,
         "physicalY": 1018.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -3755,17 +2578,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695721000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 546.0,
         "physicalY": 1012.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -3775,17 +2592,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695730000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 547.0,
         "physicalY": 1007.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3795,17 +2606,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695739000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 548.0,
         "physicalY": 1003.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3815,17 +2620,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695747000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 551.0,
         "physicalY": 998.0,
         "physicalDeltaX": 3.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3835,17 +2634,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695756000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 553.0,
         "physicalY": 993.0,
         "physicalDeltaX": 2.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3855,17 +2648,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695765000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 554.0,
         "physicalY": 988.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3875,17 +2662,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695774000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 555.0,
         "physicalY": 984.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3895,16 +2676,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695783000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 555.0,
         "physicalY": 980.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3914,17 +2689,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695792000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 556.0,
         "physicalY": 976.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -3934,17 +2703,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695801000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 557.0,
         "physicalY": 971.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7244094610214233,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -3954,17 +2717,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695809000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 558.0,
         "physicalY": 965.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7244094610214233,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -3974,17 +2731,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695818000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 559.0,
         "physicalY": 959.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7244094610214233,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -3994,17 +2745,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695827000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 560.0,
         "physicalY": 953.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -4014,16 +2759,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695836000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 560.0,
         "physicalY": 947.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -4033,16 +2772,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695845000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 560.0,
         "physicalY": 941.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -4052,16 +2785,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695854000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 560.0,
         "physicalY": 936.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -4071,16 +2798,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695862000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 560.0,
         "physicalY": 931.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -4090,16 +2811,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695871000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 560.0,
         "physicalY": 926.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -4109,17 +2824,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695880000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 561.0,
         "physicalY": 921.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -4129,16 +2838,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695889000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 561.0,
         "physicalY": 917.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7007874250411987,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -4148,17 +2851,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695898000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 562.0,
         "physicalY": 912.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7086614370346069,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -4168,17 +2865,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695906000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 563.0,
         "physicalY": 907.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -4188,17 +2879,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695915000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 564.0,
         "physicalY": 903.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7244094610214233,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -4208,17 +2893,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695924000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 565.0,
         "physicalY": 898.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7244094610214233,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -4228,17 +2907,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695933000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 566.0,
         "physicalY": 891.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -7.0,
-        "pressure": 0.7244094610214233,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -7.0
       }
     ]
   },
@@ -4248,16 +2921,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695942000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 566.0,
         "physicalY": 885.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7244094610214233,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -4267,17 +2934,11 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695951000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 879.0,
         "physicalDeltaX": 1.0,
-        "physicalDeltaY": -6.0,
-        "pressure": 0.7244094610214233,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -6.0
       }
     ]
   },
@@ -4287,16 +2948,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695959000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 874.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7244094610214233,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -4306,16 +2961,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695968000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 870.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -4325,16 +2974,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695977000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 866.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -4344,16 +2987,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695986000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 862.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -4363,16 +3000,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171695995000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 857.0,
-        "physicalDeltaY": -5.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -5.0
       }
     ]
   },
@@ -4382,16 +3013,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696003000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 853.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -4401,16 +3026,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696012000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 849.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -4420,16 +3039,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696021000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 846.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -4439,16 +3052,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696030000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 843.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -4458,16 +3065,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696039000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 840.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7165354490280151,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -4477,16 +3078,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696048000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 837.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7244094610214233,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -4496,16 +3091,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696056000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 834.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7322834730148315,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -4515,16 +3104,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696065000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 830.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7401574850082397,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -4534,16 +3117,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696074000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 826.0,
-        "physicalDeltaY": -4.0,
-        "pressure": 0.7401574850082397,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -4.0
       }
     ]
   },
@@ -4553,16 +3130,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696083000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 823.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.748031497001648,
-        "pressureMax": 1.0,
-        "size": 0.05905511975288391,
-        "radiusMajor": 8.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -4572,16 +3143,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696092000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 821.0,
-        "physicalDeltaY": -2.0,
-        "pressure": 0.748031497001648,
-        "pressureMax": 1.0,
-        "size": 0.05905511975288391,
-        "radiusMajor": 8.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -2.0
       }
     ]
   },
@@ -4591,16 +3156,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696101000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 818.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.748031497001648,
-        "pressureMax": 1.0,
-        "size": 0.05905511975288391,
-        "radiusMajor": 8.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -4610,16 +3169,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696110000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 816.0,
-        "physicalDeltaY": -2.0,
-        "pressure": 0.748031497001648,
-        "pressureMax": 1.0,
-        "size": 0.05905511975288391,
-        "radiusMajor": 8.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -2.0
       }
     ]
   },
@@ -4629,16 +3182,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696118000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 814.0,
-        "physicalDeltaY": -2.0,
-        "pressure": 0.7401574850082397,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -2.0
       }
     ]
   },
@@ -4648,16 +3195,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696127000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 811.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7401574850082397,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -4667,16 +3208,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696136000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 808.0,
-        "physicalDeltaY": -3.0,
-        "pressure": 0.7401574850082397,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -3.0
       }
     ]
   },
@@ -4686,16 +3221,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696145000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 806.0,
-        "physicalDeltaY": -2.0,
-        "pressure": 0.7401574850082397,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -2.0
       }
     ]
   },
@@ -4705,16 +3234,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696154000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 805.0,
-        "physicalDeltaY": -1.0,
-        "pressure": 0.7401574850082397,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -1.0
       }
     ]
   },
@@ -4724,16 +3247,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696163000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 804.0,
-        "physicalDeltaY": -1.0,
-        "pressure": 0.7401574850082397,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -1.0
       }
     ]
   },
@@ -4743,16 +3260,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696171000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 803.0,
-        "physicalDeltaY": -1.0,
-        "pressure": 0.7401574850082397,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -1.0
       }
     ]
   },
@@ -4762,16 +3273,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696189000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 802.0,
-        "physicalDeltaY": -1.0,
-        "pressure": 0.7322834730148315,
-        "pressureMax": 1.0,
-        "size": 0.05511811003088951,
-        "radiusMajor": 7.0,
-        "radiusMinor": 7.0
+        "physicalDeltaY": -1.0
       }
     ]
   },
@@ -4781,16 +3286,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696207000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 801.0,
-        "physicalDeltaY": -1.0,
-        "pressure": 0.6929134130477905,
-        "pressureMax": 1.0,
-        "size": 0.05118110030889511,
-        "radiusMajor": 7.0,
-        "radiusMinor": 6.0
+        "physicalDeltaY": -1.0
       }
     ]
   },
@@ -4800,16 +3299,10 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696233000,
         "change": 5,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
         "physicalY": 800.0,
-        "physicalDeltaY": -1.0,
-        "pressure": 0.26771652698516846,
-        "pressureMax": 1.0,
-        "size": 0.011811023578047752,
-        "radiusMajor": 2.0,
-        "radiusMinor": 1.0
+        "physicalDeltaY": -1.0
       }
     ]
   },
@@ -4819,15 +3312,9 @@ const String scrollingRecord = r'''
       {
         "timeStamp": 171696249000,
         "change": 6,
-        "signalKind": 0,
         "pointerIdentifier": 1,
         "physicalX": 567.0,
-        "physicalY": 800.0,
-        "pressure": 0.26771652698516846,
-        "pressureMax": 1.0,
-        "size": 0.011811023578047752,
-        "radiusMajor": 2.0,
-        "radiusMinor": 1.0
+        "physicalY": 800.0
       }
     ]
   }
