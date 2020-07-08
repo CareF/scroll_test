@@ -22,7 +22,12 @@ extension TimedBindingBase on TestWidgetsFlutterBinding {
 }
 
 extension GestureReplay on WidgetTester {
-  Future<List<Duration>> handlePointerEventPack(
+  Future<void> handleInputEventsRecords(String jsonString) {
+    return handlePointerEventPacket(pointerEventPackFromJson(jsonString,
+        binding.window.devicePixelRatio));
+  }
+
+  Future<List<Duration>> handlePointerEventPacket(
       List<PointerEventPacket> packet) {
     assert(packet != null);
     assert(packet.isNotEmpty);
@@ -68,9 +73,6 @@ extension GestureReplay on WidgetTester {
   void _handlePointerEvent(
       PointerEvent event, Map<int, HitTestResult> _hitTests) {
     HitTestResult hitTestResult;
-    if (event is PointerAddedEvent) {
-      return;
-    }
     if (event is PointerDownEvent || event is PointerSignalEvent) {
       assert(!_hitTests.containsKey(event.pointer));
       hitTestResult = HitTestResult();

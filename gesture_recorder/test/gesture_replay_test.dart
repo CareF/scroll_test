@@ -57,7 +57,7 @@ void main () {
         )
       ])
     ];
-    await tester.handlePointerEventPack(records);
+    await tester.handlePointerEventPacket(records);
 
     const String b = '$kSecondaryMouseButton';
     for(int i = 0; i < logs.length; i++) {

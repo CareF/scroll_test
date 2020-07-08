@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:gesture_recorder/gesture_recorder.dart';
 import 'package:e2e/e2e.dart';
 
 import 'package:complex_layout/main.dart' as app;
-//import 'package:flutter/services.dart' show rootBundle;
 import 'package:complex_layout/scrollingRecord.dart';
 
 Future<void> main() async {
@@ -11,9 +11,6 @@ Future<void> main() async {
   E2EWidgetsFlutterBinding.ensureInitialized() as E2EWidgetsFlutterBinding;
   binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;
   testWidgets('E2E test with recorded input', (WidgetTester tester) async {
-    // TODO(CareF): how to get a good relative path
-    // dev_assets?
-//    final String scrollingRecord = await rootBundle.loadString('scrollingRecord.json');
 
     app.main();
     await tester.pumpAndSettle();
