@@ -28,21 +28,20 @@ extension GestureReplay on WidgetTester {
   }
 
   Future<List<Duration>> handlePointerEventPacket(
-      List<PointerEventPacket> packet) async {
+      List<PointerEventPacket> packet, {DateTime startTime}) {
     assert(packet != null);
     assert(packet.isNotEmpty);
     return TestAsyncUtils.guard<List<Duration>>(() async {
       // hitTestHistory is an equivalence of _hitTests in [GestureBinding]
       final Map<int, HitTestResult> hitTestHistory = <int, HitTestResult>{};
       final List<Duration> handleTimeStampDiff = <Duration>[];
-      DateTime startTime;
       Future<List<Duration>> result;
       for (final PointerEventPacket packet in packet) {
         final Completer<List<Duration>> completer = Completer<List<Duration>>();
         result = completer.future;
         final DateTime now = binding.clock.now();
-        startTime ??= now;
-        // So that the first event is promised to received a zero timeDiff
+        // make room for the following preparation
+        startTime ??= now.add(const Duration(milliseconds: 20));
         final Duration timeDiff = packet.timeStamp - now.difference(startTime);
         if (timeDiff.isNegative) {
           // Flush all past events
