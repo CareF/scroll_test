@@ -22,7 +22,7 @@ extension TimedBindingBase on TestWidgetsFlutterBinding {
 }
 
 extension GestureReplay on WidgetTester {
-  Future<void> handleInputEventsRecords(String jsonString) {
+  Future<List<Duration>> handleInputEventsRecords(String jsonString) {
     return handlePointerEventPacket(pointerEventPackFromJson(jsonString,
         binding.window.devicePixelRatio));
   }
@@ -50,7 +50,7 @@ extension GestureReplay on WidgetTester {
         } else {
           // TODO(CareF): reconsider the pumping strategy after
           // https://github.com/flutter/flutter/issues/60739 is fixed
-          await binding.pump();
+          // await binding.pump();
           await binding.executeLater(timeDiff, () async {
             handleTimeStampDiff.add(
                 packet.timeStamp - binding.clock.now().difference(startTime));
@@ -60,7 +60,7 @@ extension GestureReplay on WidgetTester {
           });
         }
       }
-      await binding.pump();
+      // await binding.pump();
       // This makes sure that a gesture is completed, with no more pointers
       // active.
       assert(hitTestHistory.isEmpty);

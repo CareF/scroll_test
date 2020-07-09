@@ -2,6 +2,8 @@
 // the test should be run as:
 // flutter drive -t test/using_array.dart --driver test_driver/scrolling_test_e2e_test.dart
 
+import 'dart:developer';
+
 import 'package:gesture_recorder/gesture_recorder.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +18,12 @@ Future<void> main() async {
   binding.framePolicy = LiveTestWidgetsFlutterBindingFramePolicy.fullyLive;
   testWidgets('E2E test with array input', (WidgetTester tester) async {
     app.main();
+    await tester.pumpAndSettle();
+
+    // This also enables scroll widget position track and input event track
+    await tester.tap(find.byTooltip('Open navigation menu'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.byKey(const ValueKey<String>('info-switcher')));
     await tester.pumpAndSettle();
 
     final Offset location = tester.getCenter(find.byKey(
@@ -60,8 +68,10 @@ Future<void> main() async {
         )
       ])
     ];
-    await tester.handlePointerEventPacket(records);
-
+    final List<Duration> delay = await tester.handlePointerEventPacket(records);
+    Timeline.instantSync('simulation delay', arguments: <String, List<int>>{
+      'delay': delay.map<int>((Duration e) => e.inMicroseconds).toList()
+    });
     await tester.pumpAndSettle();
   }, semanticsEnabled: false);
 }
