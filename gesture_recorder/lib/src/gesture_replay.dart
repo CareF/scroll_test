@@ -28,7 +28,7 @@ extension GestureReplay on WidgetTester {
   }
 
   Future<List<Duration>> handlePointerEventPacket(
-      List<PointerEventPacket> packet) {
+      List<PointerEventPacket> packet) async {
     assert(packet != null);
     assert(packet.isNotEmpty);
     return TestAsyncUtils.guard<List<Duration>>(() async {
@@ -36,7 +36,10 @@ extension GestureReplay on WidgetTester {
       final Map<int, HitTestResult> hitTestHistory = <int, HitTestResult>{};
       final List<Duration> handleTimeStampDiff = <Duration>[];
       DateTime startTime;
+      Future<List<Duration>> result;
       for (final PointerEventPacket packet in packet) {
+        final Completer<List<Duration>> completer = Completer<List<Duration>>();
+        result = completer.future;
         final DateTime now = binding.clock.now();
         startTime ??= now;
         // So that the first event is promised to received a zero timeDiff
@@ -44,27 +47,40 @@ extension GestureReplay on WidgetTester {
         if (timeDiff.isNegative) {
           // Flush all past events
           handleTimeStampDiff.add(timeDiff);
+          // handleTimeStampDiff.add(Duration.zero);
           for (final PointerEvent event in packet.events) {
             _handlePointerEvent(event, hitTestHistory);
           }
+          completer.complete(handleTimeStampDiff);
         } else {
           // TODO(CareF): reconsider the pumping strategy after
           // https://github.com/flutter/flutter/issues/60739 is fixed
           // await binding.pump();
-          await binding.executeLater(timeDiff, () async {
+          Timer(timeDiff, () async {
             handleTimeStampDiff.add(
                 packet.timeStamp - binding.clock.now().difference(startTime));
             for (final PointerEvent event in packet.events) {
               _handlePointerEvent(event, hitTestHistory);
             }
+            completer.complete(handleTimeStampDiff);
           });
+//          await binding.executeLater(
+//            timeDiff - const Duration(milliseconds: 1),
+//            () async {
+//              handleTimeStampDiff.add(
+//                packet.timeStamp - binding.clock.now().difference(startTime));
+//              for (final PointerEvent event in packet.events) {
+//                _handlePointerEvent(event, hitTestHistory);
+//              }
+//            },
+//          );
         }
       }
       // await binding.pump();
       // This makes sure that a gesture is completed, with no more pointers
       // active.
       assert(hitTestHistory.isEmpty);
-      return handleTimeStampDiff;
+      return result;
     });
   }
 
