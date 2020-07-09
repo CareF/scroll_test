@@ -68,5 +68,5 @@ void main () {
       else
         expect(logs[i], 'up $b');
     }
-  });
+  }, timeout: const Timeout(Duration(milliseconds: 100)));
 }
