@@ -4,6 +4,8 @@ import 'dart:ui' as ui
 
 import 'package:flutter/gestures.dart';
 
+// TODO(CareF): change serialize and deserialize to extension of toJson and fromJson
+
 /// Serializes [ui.PointerData] to a json object.
 ///
 /// Default values are omitted in the json object.
