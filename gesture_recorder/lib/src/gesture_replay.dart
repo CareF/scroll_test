@@ -79,6 +79,9 @@ extension GestureReplay on WidgetTester {
       // This makes sure that a gesture is completed, with no more pointers
       // active.
       assert(hitTestHistory.isEmpty);
+      if (binding is AutomatedTestWidgetsFlutterBinding) {
+        await binding.pump(startTime.difference(binding.clock.now()) + packet.last.timeStamp);
+      }
       return result;
     });
   }
