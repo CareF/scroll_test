@@ -1,0 +1,22 @@
+PODS:
+  - e2e (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - e2e (from `.symlinks/plugins/e2e/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  e2e:
+    :path: ".symlinks/plugins/e2e/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  e2e: d0c9f8c832b4cc7ab386d0c0f0af67fe5ac0c3bd
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.9.3
