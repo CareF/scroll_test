@@ -5,7 +5,8 @@ import 'package:file/file.dart';
 import 'package:path/path.dart' as path;
 import 'package:flutter_driver/flutter_driver.dart';
 
-import 'recorder.dart' show kRecordTimelineName;
+// import 'recorder.dart' show kRecordTimelineName;
+const String kRecordTimelineName = 'GestureBinding receive PointerEvents';
 
 const JsonEncoder _prettyEncoder = JsonEncoder.withIndent('  ');
 
