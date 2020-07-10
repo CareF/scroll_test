@@ -30,8 +30,8 @@ Future<void> main() async {
     const int moveEventNumber = 250;
     const Offset movePerRun = Offset(0.0, -400.0 / moveEventNumber);
     const Duration timePerRun = Duration(milliseconds: 2E3 ~/ moveEventNumber);
-    final List<PointerEventPacket> records = <PointerEventPacket>[
-      PointerEventPacket(Duration.zero, <PointerEvent>[
+    final List<PointerEventRecord> records = <PointerEventRecord>[
+      PointerEventRecord(Duration.zero, <PointerEvent>[
         // Typically PointerAddedEvent is not used in testers, but for records
         // captured on a device it is usually what start a gesture.
         PointerAddedEvent(
@@ -44,9 +44,9 @@ Future<void> main() async {
           pointer: 1,
         ),
       ]),
-      ...<PointerEventPacket>[
+      ...<PointerEventRecord>[
         for (int t=0; t < moveEventNumber; t++)
-          PointerEventPacket(timePerRun * t, <PointerEvent>[
+          PointerEventRecord(timePerRun * t, <PointerEvent>[
             PointerMoveEvent(
               timeStamp: timePerRun * t,
               position: location + movePerRun * t.toDouble(),
@@ -59,7 +59,7 @@ Future<void> main() async {
             )
           ])
       ],
-      PointerEventPacket(timePerRun * moveEventNumber, <PointerEvent>[
+      PointerEventRecord(timePerRun * moveEventNumber, <PointerEvent>[
         PointerUpEvent(
           timeStamp: timePerRun * moveEventNumber,
           position: location + movePerRun * moveEventNumber.toDouble(),
@@ -67,7 +67,7 @@ Future<void> main() async {
         )
       ])
     ];
-    final List<Duration> delay = await tester.handlePointerEventPacket(records);
+    final List<Duration> delay = await tester.handlePointerEventRecord(records);
     Timeline.instantSync('simulation delay', arguments: <String, List<int>>{
       'delay': delay.map<int>((Duration e) => e.inMicroseconds).toList()
     });
