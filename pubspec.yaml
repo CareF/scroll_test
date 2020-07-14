@@ -22,7 +22,9 @@ dev_dependencies:
   flutter_driver:
     sdk: flutter
   test: any
-  e2e: 0.5.0+1
+  e2e: ^0.6.0
+  gesture_recorder:
+    git: https://github.com/CareF/gesture_recorder.git
   pedantic: ^1.8.0
 
 
